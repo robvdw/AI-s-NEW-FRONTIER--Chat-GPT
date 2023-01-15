@@ -42,3 +42,8 @@ De prompt is de vraag , het verzoek of de vraag van de gebruiker in tekst-vorm.
 De prompt wordt vervolgens doorgegeven aan het model, die op zijn beurt hier op reageert in text-vorm, waarbij de gegenereerde tekst beetje bij beetje wordt vrijgegeven. 
 
 De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of opdrachten uitvoert zoals een mens dat zou doen.
+
+![ezgif-4-15c07a58db](https://user-images.githubusercontent.com/684692/212562846-e56214b4-2f95-452f-a1b8-ee8adfb37079.gif)
+
+
+
