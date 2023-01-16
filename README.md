@@ -89,10 +89,26 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 *********
 
+<br /> <br />
+
 ### PROMPT VOORBEELDEN
 
 
 ********
+
+
+
+<img align="right" width="600" height="300" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
+<br />
+
+<img align="right" width="600" height="400" src="https://user-images.githubusercontent.com/684692/212640177-747d0ab2-1852-4423-b27d-ef359e365407.png">
+<br />
+
+<img align="right" width="600" height="400" src="https://user-images.githubusercontent.com/684692/212640181-5dd706fb-a3c2-4f8c-a8ed-e339f4e37416.png">
+<br />
+
+<img align="right" width="600" height="400" src="https://user-images.githubusercontent.com/684692/212640182-2c972779-e064-4f74-ad62-82df78396ea9.png">
+
 
 
 
