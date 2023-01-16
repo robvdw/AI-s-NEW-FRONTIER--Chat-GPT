@@ -67,10 +67,10 @@ Voorbeeld03 : Het door de mens vervaardigde antwoord
 Voorbeeld03 : wordt opgeslagen door het taal model
 ```
 
-```
 
 Deze modellen vertonen echter vaak onbedoeld gedrag, zoals het verzinnen van feiten, het genereren van bevooroordeelde of giftige tekst, of het simpelweg niet opvolgen van instructies van de gebruiker
 
+********
 ### BASIC PROMPTS
 
 ChatGPT maakt gebruik van  *"prompting"* of *"priming"*. 
