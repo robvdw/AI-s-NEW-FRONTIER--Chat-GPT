@@ -10,6 +10,7 @@
 ## Context & Doel
 
 Exemplarisch voor AI anno 2023 is de lerende machine **––ML––** genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel **––LLM––** dat gebruik maakt van natuurlijke taalverwerkende **––NLP––** AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
+ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
 ```mermaid
 flowchart LR
@@ -33,9 +34,46 @@ Een testversie van ChatGPT  is op 30 november 2022 publiekelijk beschikbaar gest
 <br/>
 
 *******
+
+### HOE LEER JE EEN COMPUTER EEN GESPREK TE VOEREN?
+https://github.com/openai/following-instructions-human-feedback
+
+Een taalvaardig AI-model --een chatbot-- kan worden "gevraagd" om een taak uit te voeren op basis van tekstuele instructies. Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+
+Dit proces is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's. maar een antwoord zoals een mens dat zou geven.
+
+Om hieraan te voldoen moet de chatbot eerst worden getraind aan de hand van een grote hoeveelheid 
+voorbeelden van deze taak. 
+
+```mermaid
+classDiagram
+Machine1 --> Mens
+Mens --> Machine2
+Stap01  --> Stap02
+Stap01 : selecteer een taak
+Stap01 : uit dialoog-dataset
+Stap02 : demonstreer de 
+Stap02 : gewenste uitkomst
+Stap02 --> Stap03
+Stap03 : Uitkomst wordt
+Stap03 : opgeslagen door
+Stap03 : het taal model
+Voorbeeld01 --> Voorbeeld02
+Voorbeeld02 --> Voorbeeld03
+Voorbeeld01 : Leg uit wat een paard is
+Voorbeeld01 : aan een zes jarige
+Voorbeeld02 : Een paard is een viervoetig zoogdier ...
+Voorbeeld03 : Het door de mens vervaardigde antwoord
+Voorbeeld03 : wordt opgeslagen door het taal model
+```
+
+```
+
+Deze modellen vertonen echter vaak onbedoeld gedrag, zoals het verzinnen van feiten, het genereren van bevooroordeelde of giftige tekst, of het simpelweg niet opvolgen van instructies van de gebruiker
+
 ### BASIC PROMPTS
 
-ChatGPT gebruikt een concept dat *"prompting"* of *"priming"* heet. 
+ChatGPT maakt gebruik van  *"prompting"* of *"priming"*. 
 
 De prompt is de vraag , het verzoek of de vraag van de gebruiker in tekst-vorm. 
 
@@ -43,7 +81,17 @@ De prompt wordt vervolgens doorgegeven aan het model, die op zijn beurt hier op 
 
 De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of opdrachten uitvoert zoals een mens dat zou doen.
 
-![ezgif-4-15c07a58db](https://user-images.githubusercontent.com/684692/212562846-e56214b4-2f95-452f-a1b8-ee8adfb37079.gif)
+<br>
+
+<img align="right" width="800" height="600" src="https://user-images.githubusercontent.com/684692/212562846-e56214b4-2f95-452f-a1b8-ee8adfb37079.gif">
+
+
+
+
+
+
+
+
 
 
 
