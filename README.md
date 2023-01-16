@@ -6,19 +6,22 @@
 
 # PROMETHEUS <br /> DATA SCIENCE LAB
 
+
 ***********
+
+
 ## Context & Doel
 
 Exemplarisch voor AI anno 2023 is de lerende machine ––ML–– genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel ––LLM–– dat gebruik maakt van natuurlijke taalverwerkende ––NLP–– AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
-<div class="warning" style='padding:0.1em; background-color:#000000; color:#69337A'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<b>Deze GitHub repository is een primer dat op basis van <i>PROMPT</i> voorbeelden  demonstreert  wat het belang is van <br > LLMs zoals ChatGPT voor het hoger onderwijs. Een gebruiksaanwijzing met bijsluiter voor docenten en studenten.<b>
-</p></span>
-</div>
 
+```mermaid
+flowchart LR
+
+A[Deze GitHub repository is een primer dat op basis van <i>PROMPT</i> voorbeelden  demonstreert hoe ChatCPT werkt.]
+
+```
 
 
 <br /> 
