@@ -18,7 +18,7 @@ flowchart LR
 A([Deze GitHub repository is een primer dat op basis van <br >  *PROMPT* voorbeelden  demonstreert  wat het belang is van <br > *LLMs* zoals ChatGPT in het hoger onderwijs. <br> Een gebruiksaanwijzing met bijsluiter.])
 
 ```
-<br /> <br />
+<br /> 
 
 
 <img align="left" width="200" height="300" src="https://user-images.githubusercontent.com/684692/212558117-0445bc99-5ef7-438c-9421-e758f64473da.jpg">
