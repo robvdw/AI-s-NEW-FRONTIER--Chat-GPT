@@ -23,7 +23,6 @@ A[Deze GitHub repository is een primer dat op basis van <i>PROMPT</i> voorbeelde
 
 ```
 
-
 <br /> 
 
 
@@ -41,7 +40,7 @@ Een testversie van ChatGPT  is op 30 november 2022 publiekelijk beschikbaar gest
 
 *******
 
-### HOE LEER COMPUTERS EEN GESPREK TE VOEREN?
+### HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
 https://github.com/openai/following-instructions-human-feedback
 
 Een taalvaardig AI-model kan worden "gevraagd" om een taak uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
