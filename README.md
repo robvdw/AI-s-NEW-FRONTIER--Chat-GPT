@@ -97,7 +97,6 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 ********
 
 
-
 <img align="right" width="600" height="300" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
 <br />
 
