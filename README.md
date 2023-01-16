@@ -12,9 +12,13 @@
 Exemplarisch voor AI anno 2023 is de lerende machine ––ML–– genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel ––LLM–– dat gebruik maakt van natuurlijke taalverwerkende ––NLP–– AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
+<div class="warning" style='padding:0.1em; background-color:#000000; color:#69337A'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>Deze GitHub repository is een primer dat op basis van <i>PROMPT</i> voorbeelden  demonstreert  wat het belang is van <br > LLMs zoals ChatGPT voor het hoger onderwijs. Een gebruiksaanwijzing met bijsluiter voor docenten en studenten.<b>
+</p></span>
+</div>
 
-
-Deze GitHub repository is een primer dat op basis van *PROMPT* voorbeelden  demonstreert  wat het belang is van <br > *LLMs* zoals ChatGPT voor het hoger onderwijs. Een gebruiksaanwijzing met bijsluiter voor docenten en studenten.
 
 
 <br /> 
@@ -34,7 +38,7 @@ Een testversie van ChatGPT  is op 30 november 2022 publiekelijk beschikbaar gest
 
 *******
 
-### HOE LEER JE EEN COMPUTER EEN GESPREK TE VOEREN?
+### HOE LEER COMPUTERS EEN GESPREK TE VOEREN?
 https://github.com/openai/following-instructions-human-feedback
 
 Een taalvaardig AI-model kan worden "gevraagd" om een taak uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
@@ -66,6 +70,7 @@ Voorbeeld03 : Het door de mens vervaardigde antwoord
 Voorbeeld03 : wordt opgeslagen door het taal model
 ```
 
+
 <br> <br>
 
 Geraadpleegde bronnen: 
@@ -95,11 +100,11 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ```mermaid
 sequenceDiagram
-RF->>ChatGPT: "Ben jij een voorbeeld van een generatief taalmodel AI?"
+RF->>ChatGPT: note "Ben jij een voorbeeld van een generatief taalmodel AI?"
 ChatGPT->>RF: "Ja, ik ben in staat om nieuwe tekst te genereren door het analyseren en leren van grote hoeveelheden aan tekst"
 ChatGPT->>RF: "Ik kan antwoorden geven op vragen, tekst genereren  in verschillende stijlen en talen."
 ChatGPT->>RF: "Ja, ik ben een voorbeeld van generatieve AI."
-RF->>ChatGPT: "Ben jij een voorbeeld van een generatief taalmodel AI?"
+RF->>ChatGPT: "Ben jij een voorbeeld van een generatief taalmodel AI?" 
 ```
 
 
