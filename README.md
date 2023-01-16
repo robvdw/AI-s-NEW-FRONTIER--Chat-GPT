@@ -15,7 +15,7 @@ ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te boo
 ```mermaid
 flowchart LR
 
-A([Deze GitHub repository is een primer dat op basis van <br >  *PROMPT* voorbeelden  demonstreert  wat het belang is van <br > *LLMs* zoals ChatGPT in het hoger onderwijs. <br> Een gebruiksaanwijzing met bijsluiter.])
+A([Deze GitHub repository is een primer dat op basis van <br >  *PROMPT* voorbeelden  demonstreert  wat het belang is van <br > *LLMs* zoals ChatGPT voor het hoger onderwijs. <br> Een gebruiksaanwijzing met bijsluiter.])
 
 ```
 <br /> 
@@ -38,9 +38,9 @@ Een testversie van ChatGPT  is op 30 november 2022 publiekelijk beschikbaar gest
 ### HOE LEER JE EEN COMPUTER EEN GESPREK TE VOEREN?
 https://github.com/openai/following-instructions-human-feedback
 
-Een taalvaardig AI-model --een chatbot-- kan worden "gevraagd" om een taak uit te voeren op basis van tekstuele instructies. Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+Een taalvaardig AI-model --een chatbot-- kan worden "gevraagd" om een taak uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Dit proces is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's. maar een antwoord zoals een mens dat zou geven.
+Dit proces is vergelijkbaar met een Google zoekopdracht. <br> Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, <br> maar een antwoord zoals een mens dat zou geven.
 
 Om hieraan te voldoen moet de chatbot eerst worden getraind aan de hand van een grote hoeveelheid 
 voorbeelden van deze taak. 
@@ -67,11 +67,17 @@ Voorbeeld03 : Het door de mens vervaardigde antwoord
 Voorbeeld03 : wordt opgeslagen door het taal model
 ```
 
+<br> <br>
 
-Deze modellen vertonen echter vaak onbedoeld gedrag, zoals het verzinnen van feiten, het genereren van bevooroordeelde of giftige tekst, of het simpelweg niet opvolgen van instructies van de gebruiker
+Geraadpleegde bronnen: 
+* Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155 
+* OpenAI Guthub Repository: InstructGPT [Training Language Models to Follow Instructions with Human Feedback.](https://github.com/openai/following-instructions-human-feedback)
+
 
 ********
-### BASIC PROMPTS
+### HOE GEEF IK EEN OPDRACHT AAN CHATGPT?
+
+<img align="right" width="600" height="400" src="https://user-images.githubusercontent.com/684692/212562846-e56214b4-2f95-452f-a1b8-ee8adfb37079.gif">
 
 ChatGPT maakt gebruik van  *"prompting"* of *"priming"*. 
 
@@ -81,14 +87,12 @@ De prompt wordt vervolgens doorgegeven aan het model, die op zijn beurt hier op 
 
 De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of opdrachten uitvoert zoals een mens dat zou doen.
 
-<br>
+*********
 
-<img align="right" width="800" height="600" src="https://user-images.githubusercontent.com/684692/212562846-e56214b4-2f95-452f-a1b8-ee8adfb37079.gif">
-
-
+### PROMPT VOORBEELDEN
 
 
-
+********
 
 
 
