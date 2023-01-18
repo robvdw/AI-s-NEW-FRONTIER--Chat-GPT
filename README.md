@@ -19,7 +19,9 @@ ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te boo
 
 <br>
 
-Deze GitHub repository is een primer met bijsluiter dat op basis van <i>prompt</i> voorbeelden  demonstreert hoe ChatCPT werkt.
+$${\color{blue} \fbox{Deze GitHub repository is een ChatGPT primer met bijsluiter.}}$$
+
+
 
 <!--
 
