@@ -186,6 +186,8 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 ********
 
 [7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
+ 
+********
 
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
@@ -213,6 +215,8 @@ print(fullText)
 
 <br /> 
 
+********
+
 [8] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
@@ -220,6 +224,8 @@ https://openai-openai-detector.hf.space/
 ********
 
 <br /> 
+
+********
 
 [9] KUN JE SPREKEN TEGEN ChatGPT?
 
