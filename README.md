@@ -217,6 +217,50 @@ print(fullText)
 
 ********
 
+### [8] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN VOLGENS APA-stijl?
+ 
+********
+
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je mij drie bronnen vermelden met als topic "Deep Learning" in APA-stijl + DOI die het meest geciteerd zijn tot 2019?  + een samenvatting | ChatGPT | Ik kan u drie bronnen geven die tot 2019 vaak geciteerd zijn en die betrekking hebben op "Deep Learning" in APA-stijl|
+| Human | Kun je ook aangeven hoe vaak ze zijn geciteerd?? | ChatGPT | Ik kan geen precieze citaatcijfers geven voor deze specifieke bronnen, omdat de citaatcijfers kunnen variëren afhankelijk van de bron van de citaatcijfers. <br> <br> Houd er rekening mee dat het citaatcijfer van een artikel kan veranderen in de tijd, afhankelijk van de hoeveelheid onderzoek die wordt gepubliceerd in de toekomst. Als alternatief kunt u de citaatcijfers voor deze artikelen controleren op websites zoals Google Scholar.|
+| Human | Hoe vaak zijn ze geciteerd volgens Google Scholar? | ChatGPT | Hier zijn drie bronnen over Deep Learning die tot en met 2019 gepubliceerd zijn en vaak geciteerd zijn volgens Google Scholar (op 2021-09-01):.|
+
+
+```
+[1] LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444. 
+    DOI: 10.1038/nature14539
+    Citaties: 52,106
+
+    Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken van
+    de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation, 
+    regulering, convolutionele netwerken en recurrente netwerken.
+
+[2] Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. 
+    DOI: 10.1016/j.neunet.2014.09.003
+    Citaties: 3,657
+
+    Dit artikel geeft een overzicht van de geschiedenis van Deep Learning en de huidige trends in de ontwikkeling
+    van diepe neurale netwerken. Het bespreekt ook de verschillende soorten diepe neurale netwerken
+    die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.
+
+[3] Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning (pp. 1-7). MIT Press. 
+    DOI: 10.7551/mitpress/9780262035613.003.0001
+    Citaties: 12,843
+
+    Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken
+    van de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation 
+    regulering, convolutionele netwerken en recurrente netwerken.
+    
+```
+
+********
+
+<br /> 
+
+********
+
 ### [8] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
