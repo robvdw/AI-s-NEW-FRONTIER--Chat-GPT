@@ -176,7 +176,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 ********
 ### [6] PROMPT VOORBEELDEN
 
-
+De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
 ********
 
 
