@@ -15,17 +15,22 @@
 Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. 
 
 Het is gevoed met meer dan 8 miljoen unieke dialogen.
-ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
+ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. 
 
+Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
+
+Deze GitHub repository is een ChatGPT primer met bijsluiter.
 <br>
 
-$${\color{blue} \fbox{Deze GitHub repository is een ChatGPT primer met bijsluiter.}}$$
 
 
 
 <!--
 
-```mermaid
+$${\color{blue} \fbox{Deze GitHub repository is een ChatGPT primer met bijsluiter.}}$$
+
+
+
 ```mermaid
 flowchart LR
 
@@ -124,23 +129,24 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 <br /> 
 
 ********
-### Kan ChatGPT uitleggen wat het is?
+### [3] Kan ChatGPT uitleggen hoe het werkt?
 
 ********
 
-```mermaid
-sequenceDiagram
-RF->>ChatGPT: note "Ben jij een voorbeeld van een generatief taalmodel AI?"
-ChatGPT->>RF: "Ja, ik ben in staat om nieuwe tekst te genereren door het analyseren en leren van grote hoeveelheden aan tekst"
-ChatGPT->>RF: "Ik kan antwoorden geven op vragen, tekst genereren  in verschillende stijlen en talen."
-ChatGPT->>RF: "Ja, ik ben een voorbeeld van generatieve AI."
-RF->>ChatGPT: "Ben jij een voorbeeld van een generatief taalmodel AI?" 
-```
 
 
 
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Ben jij een voorbeeld van een generatief taalmodel AI? | ChatGPT |Ja, ik ben in staat om nieuwe tekst te genereren door het analyseren en leren van grote hoeveelheden aan tekst |
+| Human | Maar alle antwoorden die je geeft zijn toch gebaseerd op voorbeelden uit een dialoog dataset + labelling + ranking door mensen? | ChatGPT | De antwoorden die ik geef zijn gebaseerd op de informatie die ik geleerd heb uit deze dataset en de manier waarop ik deze informatie interpreteer. <br>  <br> In sommige gevallen kan ik specifieke informatie uit de dataset gebruiken om te antwoorden op een vraag, in andere gevallen kan ik een combinatie van informatie gebruiken die ik geleerd heb om antwoord te geven. <br>  <br> Ook is het zo dat mijn antwoorden door mensen worden geëvalueerd en gerankt, en zo kan ik bijgestuurd worden of bijgeleerd. |
+| Human | Wanneer je antwoorden gebaseerd zijn op een combinatie van informatie. <br>  <br> Waar bestaat die combinatie aan informatie (bronnen) dan uit? | ChatGPT |Als generatieve taalmodel, leer ik patronen en structuren in taal uit de dataset waarop ik getraind ben, zoals boeken, artikelen, websites enz. <br>  <br>Dit betekent dat de antwoorden die ik geef gebaseerd zijn op de informatie die ik geleerd heb uit deze dataset. <br>  <br>In sommige gevallen kan ik specifieke informatie uit de dataset gebruiken om te antwoorden op een vraag, in andere gevallen kan ik een combinatie van informatie gebruiken die ik geleerd heb om antwoord te geven. <br>  <br>Deze combinatie kan bestaan uit een aantal verschillende bronnen, zoals boeken, artikelen, websites of andere bronnen die in de dataset zijn opgenomen. |
+| Human | Wanneer de uitkomst een combinatie is van reeds bestaande bronnen dan heb jezelf toch niets nieuws gegenereerd? | ChatGPT |Het is waar dat ik niet in staat ben om echt nieuwe informatie te genereren die niet in de dataset aanwezig was.<br>  <br> Wat ik wel kan doen is informatie combineren en gebruiken die ik geleerd heb uit de dataset om antwoord te geven op een vraag of een opdracht uit te voeren. <br>  <br>Dit kan lijken op het genereren van nieuwe informatie, maar in feite is het een combinatie van de informatie die al aanwezig was in de dataset. |
 
-### PROMPT VOORBEELDEN
+<br /> 
+
+********
+### [4] PROMPT VOORBEELDEN
 
 
 ********
