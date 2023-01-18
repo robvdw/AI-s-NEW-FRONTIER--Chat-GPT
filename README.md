@@ -156,7 +156,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-[5] HEEFT ChatGPT TAALBEGRIP?
+### [5] HEEFT ChatGPT TAALBEGRIP?
 
 ********
 
@@ -169,7 +169,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-[6] KAN ChatGPT LOGISCH REDENEREN?
+### [6] KAN ChatGPT LOGISCH REDENEREN?
 
 ********
 
@@ -185,7 +185,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-[7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
+### [7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
  
 ********
 
@@ -217,7 +217,7 @@ print(fullText)
 
 ********
 
-[8] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
+### [8] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
 
@@ -227,7 +227,7 @@ https://openai-openai-detector.hf.space/
 
 ********
 
-[9] KUN JE SPREKEN TEGEN ChatGPT?
+### [9] KUN JE SPREKEN TEGEN ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
 
@@ -238,7 +238,7 @@ https://github.com/platelminto/chatgpt-conversation
 
 ********
 
-[10] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
+### [10] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 
 ********
 
