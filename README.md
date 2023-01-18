@@ -196,15 +196,12 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ```python
 import os
+from docx import Document
 # Import the document from de desired directory
 path = os.path.join('medisch/datasets/test01/', '19672980.docx')
-document = Document(path)
-data = document
 
-from docx import Document
 # Open the document
-document = Document('medisch/datasets/test01/19672980.docx')
-
+document = Document(path)
 # Assign the document to the variable "data"
 data = document
 
