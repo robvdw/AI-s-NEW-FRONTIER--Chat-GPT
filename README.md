@@ -133,9 +133,6 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-
-
-
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Ben jij een voorbeeld van een generatief taalmodel AI? | ChatGPT |Ja, ik ben in staat om nieuwe tekst te genereren door het analyseren en leren van grote hoeveelheden aan tekst |
@@ -144,8 +141,6 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 | Human | Wanneer de uitkomst een combinatie is van reeds bestaande bronnen dan heb jezelf toch niets nieuws gegenereerd? | ChatGPT |Het is waar dat ik niet in staat ben om echt nieuwe informatie te genereren die niet in de dataset aanwezig was.<br>  <br> Wat ik wel kan doen is informatie combineren en gebruiken die ik geleerd heb uit de dataset om antwoord te geven op een vraag of een opdracht uit te voeren. <br>  <br>Dit kan lijken op het genereren van nieuwe informatie, maar in feite is het een combinatie van de informatie die al aanwezig was in de dataset. |
 
 <br /> 
-
-
 
 ********
 ### [4] Kan ChatGPT uitleggen hoe het gebruikt zou moeten worden?
@@ -162,7 +157,23 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 <br /> 
 
 ********
-### [5] PROMPT VOORBEELDEN
+
+
+
+
+### [5] Heeft ChatGPT taalbegrip?
+
+********
+
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Heeft ChatGPT taalbegrip. <br> <br> Bijvoorbeeld: <br> <br> "Wat is het gezegde van deze zin?" | ChatGPT |ChatGPT is een taalmodel en heeft een beperkt taalbegrip. <br> Het is in staat om tekst te analyseren en te begrijpen, en kan daarom gezegden identificeren en hun betekenis bepalen. <br> <br> In deze zin "Wat is het gezegde van deze zin?" is het gezegde "wat is het gezegde van deze zin?" <br> <br> De gezegde is een grammaticale term die verwijst naar de hoofdgedachte of de uitspraak in een zin. In deze zin is de hoofdgedachte of uitspraak "wat is het gezegde van deze zin". |
+
+
+<br /> 
+
+********
+### [6] PROMPT VOORBEELDEN
 
 
 ********
