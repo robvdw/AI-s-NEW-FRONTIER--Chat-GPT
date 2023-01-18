@@ -188,7 +188,38 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-[7] Kun je detecteren of ChatGPT is gebruikt?
+[7] Kan je  ChatGPT gebruiken om broncode te schrijven?
+
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | In python. Hoe kan ik een Word document genaamd 19672980.docx toekennen aan de variable data als de file te vinden is in de map medisch/datasets/test01/ ? | ChatGPT | You can use the python-docx library to open and assign a Word document to a variable in python. Here is an example of how you can open and assign the document named "19672980.docx" to the variable "data" if the file is located in the "medisch/datasets/test01/" directory: |
+
+```python
+import os
+# Import the document from de desired directory
+path = os.path.join('medisch/datasets/test01/', '19672980.docx')
+document = Document(path)
+data = document
+
+from docx import Document
+# Open the document
+document = Document('medisch/datasets/test01/19672980.docx')
+
+# Assign the document to the variable "data"
+data = document
+
+# access the text inside de variable "data"
+fullText = []
+for para in data.paragraphs:
+    fullText.append(para.text)
+print(fullText)
+```
+
+********
+
+<br /> 
+
+[8] Kun je detecteren of ChatGPT is gebruikt?
 
 https://openai-openai-detector.hf.space/
 
@@ -196,9 +227,7 @@ https://openai-openai-detector.hf.space/
 
 <br /> 
 
-
-
-[8] Kun spreken en tegen ChatGPT?
+[9] Kun spreken en tegen ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
 
@@ -209,14 +238,14 @@ https://github.com/platelminto/chatgpt-conversation
 
 ********
 
-[9] KNOWN ISSUES MET CHatGPT
+[10] KNOWN ISSUES MET CHatGPT
 
 ********
 
 <br /> 
 
 ********
-### [10] PROMPT VOORBEELDEN
+### [11] PROMPT VOORBEELDEN
 
 De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
 ********
