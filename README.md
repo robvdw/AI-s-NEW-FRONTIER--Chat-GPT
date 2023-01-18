@@ -12,19 +12,26 @@
 
 ## Context & Doel
 
-Exemplarisch voor AI anno 2023 is de lerende machine ––ML–– genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel ––LLM–– dat gebruik maakt van natuurlijke taalverwerkende ––NLP–– AI-technologie. 
+Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. 
 
 Het is gevoed met meer dan 8 miljoen unieke dialogen.
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
 <br>
 
+Deze GitHub repository is een primer met bijsluiter dat op basis van <i>prompt</i> voorbeelden  demonstreert hoe ChatCPT werkt.
+
+<!--
+
+```mermaid
 ```mermaid
 flowchart LR
 
 id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROMPT</i> voorbeelden  demonstreert hoe ChatCPT werkt.]
 
 ```
+
+-->
 <br /> <br /> 
 
 
