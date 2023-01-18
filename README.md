@@ -379,7 +379,7 @@ Let op: deze code is een voorbeeld en is niet direct uitvoerbaar. Variabelen zoa
 
 ********
 
-### [11] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
+### [11] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
 
