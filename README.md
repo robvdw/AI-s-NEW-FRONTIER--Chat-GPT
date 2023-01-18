@@ -191,7 +191,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
-| Human | In python. Hoe kan ik een Word document genaamd 19672980.docx toekennen aan de variable data als de file te vinden is in de map medisch/datasets/test01/ ? | ChatGPT | You can use the python-docx library to open and assign a Word document to a variable in python. Here is an example of how you can open and assign the document named "19672980.docx" to the variable "data" if the file is located in the "medisch/datasets/test01/" directory: |
+| Human | In python. Hoe kan ik een Word document genaamd 19672980.docx toekennen aan de variable data als de file te vinden is in de map medisch/datasets/test01/ <br> <br> Geef aan hoe je de juiste map selecteert. <br> <br> Geef aan hoe je het document opent. <br> <br> Geef aan hoe je de variable creëert + de volledige text uitleest. | ChatGPT | You can use the python-docx library to open and assign a Word document to a variable in python. Here is an example of how you can open and assign the document named "19672980.docx" to the variable "data" if the file is located in the "medisch/datasets/test01/" directory: |
 
 ```python
 import os
@@ -223,7 +223,7 @@ print(fullText)
 
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
-| Human | Kun je mij drie bronnen vermelden met als topic "Deep Learning" in APA-stijl + DOI die het meest geciteerd zijn tot 2019?  + een samenvatting | ChatGPT | Ik kan u drie bronnen geven die tot 2019 vaak geciteerd zijn en die betrekking hebben op "Deep Learning" in APA-stijl|
+| Human | Kun je mij drie bronnen vermelden met als topic "Deep Learning" in APA-stijl <br> + DOI die het meest geciteerd zijn tot 2019?| ChatGPT | Ik kan u drie bronnen geven die tot 2019 vaak geciteerd zijn en die betrekking hebben op "Deep Learning" in APA-stijl.|
 | Human | Kun je ook aangeven hoe vaak ze zijn geciteerd?? | ChatGPT | Ik kan geen precieze citaatcijfers geven voor deze specifieke bronnen, omdat de citaatcijfers kunnen variëren afhankelijk van de bron van de citaatcijfers. <br> <br> Houd er rekening mee dat het citaatcijfer van een artikel kan veranderen in de tijd, afhankelijk van de hoeveelheid onderzoek die wordt gepubliceerd in de toekomst. Als alternatief kunt u de citaatcijfers voor deze artikelen controleren op websites zoals Google Scholar.|
 | Human | Hoe vaak zijn ze geciteerd volgens Google Scholar? | ChatGPT | Hier zijn drie bronnen over Deep Learning die tot en met 2019 gepubliceerd zijn en vaak geciteerd zijn volgens Google Scholar (op 2021-09-01):.|
 
@@ -252,8 +252,68 @@ print(fullText)
     Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken
     van de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation 
     regulering, convolutionele netwerken en recurrente netwerken.
-    
+
 ```
+
+
+
+<br /> 
+
+********
+
+### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
+ 
+********
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je een synthese geven waarin de overeenkomst wordt beschreven van de bovenstaande 3 bronnen in minder dan 500 woorden? | ChatGPT | De drie bronnen die ik eerder genoemd heb, beschrijven allemaal Deep Learning als een subveld van kunstmatige intelligentie dat zich richt op het ontwikkelen van diepe neurale netwerken. Ze beschrijven hoe Deep Learning in staat is om complexe patronen in grote hoeveelheden data te herkennen en te generaliseren, en hoe het een groeiende belangstelling heeft gekregen in de afgelopen jaren.<br> <br> De bronnen bespreken ook hoe Deep Learning wordt toegepast in diverse gebieden zoals beeldherkenning, spraakherkenning, natuurlijke taalverwerking en andere. Ze benadrukken dat deep learning methoden vaak een betere prestatie geven dan traditionele methoden van machine learning.<br> <br> Ze beschrijven ook de belangrijkste uitdagingen die nog moeten worden overwonnen zoals regulering, interpretabiliteit, en generalisatie.<br> <br>  Al de bronnen bespreken de verschillende soorten diepe neurale netwerken die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.<br> <br>  Al met al, de drie bronnen geven een uitgebreide introductie tot Deep Learning, met nadruk op de principes en technieken van diepe neurale netwerken, de toepassingsgebieden waar het meest effectief is en de uitdagingen die nog moeten worden overwonnen. |
+
+<br /> 
+
+********
+
+### [10] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
+ 
+********
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je een les bedenken van een reeks van drie waarin je met Python code voorbeelden geeft van hoe een Deep Neuraal netwerk kan worden (1) Geconstrueerd;  (2) De hyper-parameters worden beschreven; (3) Laat zien hoe het netwerk wordt getraind? | ChatGPT | Hier is een voorbeeld van een lesreeks van drie waarin wordt uitgelegd hoe een diep neurale netwerk (DNN) kan worden geconstrueerd, de hyperparameters beschreven en getraind met Python code: |
+
+
+```
+Les 1: Constructie van een DNN
+
+In deze les wordt uitgelegd hoe een DNN kan worden geconstrueerd met Python-code. 
+Hier wordt gebruik gemaakt van een populair 
+deep learning framework zoals TensorFlow of Pytorch.
+Voorbeeldcode wordt gepresenteerd om een DNN te construeren 
+met een bepaald aantal lagen, knooppunten en activatiefuncties.
+De les eindigt met het definiëren van de input- en outputlagen van het netwerk.
+
+Les 2: Hyperparameters beschrijven
+
+In deze les worden de hyperparameters van het DNN besproken, 
+zoals het aantal lagen, knooppunten, activatiefuncties, batchgrootte, leersnelheid
+en het aantal training-epochen.
+Voorbeeldcode wordt gepresenteerd om deze hyperparameters te definiëren en aan te passen.
+De les eindigt met een discussie over hoe de keuze van hyperparameters
+de prestaties van het netwerk kan beïnvloeden.
+
+Les 3: Het netwerk trainen
+
+In deze les wordt uitgelegd hoe het DNN getraind kan worden met Python-code.
+Voorbeeldcode wordt gepresenteerd om het netwerk te trainen met een 
+bepaalde dataset en de hyperparameters die in les 2 zijn gedefinieerd.
+De les eindigt met een bespreking van hoe de prestaties 
+van het netwerk getest kunnen worden met behulp van metrices 
+zoals nauwkeurigheid, foutenratio en verlies.
+Houd er rekening mee dat dit slechts een voorbeeld is, 
+en dat er veel meer aspecten zijn om te overwegen bij 
+het ontwerpen en trainen van een diep neurale netwerk.
+
+```
+
+
 
 ********
 
@@ -261,7 +321,7 @@ print(fullText)
 
 ********
 
-### [8] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
+### [11] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
 
@@ -271,7 +331,7 @@ https://openai-openai-detector.hf.space/
 
 ********
 
-### [9] KUN JE SPREKEN TEGEN ChatGPT?
+### [12] KUN JE SPREKEN TEGEN ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
 
@@ -282,14 +342,14 @@ https://github.com/platelminto/chatgpt-conversation
 
 ********
 
-### [10] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
+### [13] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 
 ********
 
 <br /> 
 
 ********
-### [11] PROMPT VOORBEELDEN
+### [14] PROMPT VOORBEELDEN
 
 De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
 ********
