@@ -184,12 +184,39 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 | Human | Wat is het antwoord op 10 + 5 ? | ChatGPT |Volgens de logica die u geeft, zou het antwoord 105 moeten zijn.|
 
 
+<br /> 
 
+********
+
+[7] Kun je detecteren of ChatGPT is gebruikt?
+
+https://openai-openai-detector.hf.space/
+
+********
+
+<br /> 
+
+
+
+[8] Kun spreken en tegen ChatGPT?
+
+https://github.com/platelminto/chatgpt-conversation
+
+********
+
+<br /> 
+
+
+********
+
+[9] KNOWN ISSUES MET CHatGPT
+
+********
 
 <br /> 
 
 ********
-### [XX] PROMPT VOORBEELDEN
+### [10] PROMPT VOORBEELDEN
 
 De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
 ********
