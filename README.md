@@ -52,6 +52,9 @@ Dit proces is vergelijkbaar met een Google zoekopdracht. <br> Het verschil is da
 Om hieraan te voldoen moet de chatbot eerst worden getraind aan de hand van een grote hoeveelheid 
 voorbeelden van deze taak in combinatie met menselijke feedback
 
+Binnen het AI-domain wordt dit proces *"reinfored learning"* genoemd. <br> Het is een proces waarbij een taalmodel wordt aangepast aan een specifieke taak. <br> In dit geval het voeren van een gesprek.
+
+<br>
 
 <div style="float:center;">
 
