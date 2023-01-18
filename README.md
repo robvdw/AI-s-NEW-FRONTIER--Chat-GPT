@@ -280,7 +280,6 @@ print(fullText)
 | Human | Kun je een les bedenken van een reeks van drie waarin je met Python code voorbeelden geeft van hoe een Deep Neuraal netwerk kan worden (1) Geconstrueerd;  (2) De hyper-parameters worden beschreven; (3) Laat zien hoe het netwerk wordt getraind? | ChatGPT | Hier is een voorbeeld van een lesreeks van drie waarin wordt uitgelegd hoe een diep neurale netwerk (DNN) kan worden geconstrueerd, de hyperparameters beschreven en getraind met Python code: |
 
 
-```
 Les 1: Constructie van een DNN
 
 In deze les wordt uitgelegd hoe een DNN kan worden geconstrueerd met Python-code. 
@@ -290,6 +289,23 @@ Voorbeeldcode wordt gepresenteerd om een DNN te construeren
 met een bepaald aantal lagen, knooppunten en activatiefuncties.
 De les eindigt met het definiëren van de input- en outputlagen van het netwerk.
 
+
+```python
+
+import tensorflow as tf
+
+# Consturctie van een simpel feedforward netwerk met 3 lagen
+model = tf.keras.Sequential()
+model.add(tf.keras.layers.Dense(units=64, activation='relu', input_shape=(784,)))
+model.add(tf.keras.layers.Dense(units=32, activation='relu'))
+model.add(tf.keras.layers.Dense(units=10, activation='softmax'))
+
+# Compilatie van het model
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+```
+
+
 Les 2: Hyperparameters beschrijven
 
 In deze les worden de hyperparameters van het DNN besproken, 
@@ -298,6 +314,33 @@ en het aantal training-epochen.
 Voorbeeldcode wordt gepresenteerd om deze hyperparameters te definiëren en aan te passen.
 De les eindigt met een discussie over hoe de keuze van hyperparameters
 de prestaties van het netwerk kan beïnvloeden.
+
+
+
+```python
+
+import numpy as np
+from sklearn.model_selection import GridSearchCV
+
+# Definiëren van de hyperparameters
+batch_size = [32, 64, 128]
+epochs = [10, 50, 100]
+
+# Definiëren van de grid
+param_grid = dict(batch_size=batch_size, epochs=epochs)
+
+# Initialiseren van de grid search
+grid = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=-1)
+
+# Fitten van de grid search
+grid_result = grid.fit(X_train, y_train)
+
+# Printen van de beste hyperparameters
+print("Best: %f using %s" % (grid_result.best_score_, grid_result.best_params_))
+
+```
+
+
 
 Les 3: Het netwerk trainen
 
@@ -311,8 +354,23 @@ Houd er rekening mee dat dit slechts een voorbeeld is,
 en dat er veel meer aspecten zijn om te overwegen bij 
 het ontwerpen en trainen van een diep neurale netwerk.
 
+
+
+```python
+# Training van het model met de beste hyperparameters
+model.fit(X_train, y_train,
+          batch_size=grid_result.best_params_['batch_size'],
+          epochs=grid_result.best_params_['epochs'],
+          validation_data=(X_val, y_val))
+
+# Evaluatie van het model op de test set
+test_loss, test_acc = model.evaluate(X_test, y_test)
+print('Test accuracy:', test_acc)
+
+
 ```
 
+Let op: deze code is een voorbeeld en is niet direct uitvoerbaar. Variabelen zoals X_train, y_train, X_val, y_val, X_test, y_test moeten eerst worden gedefinieerd en de juiste libraries geïmporteerd.
 
 
 ********
