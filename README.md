@@ -12,17 +12,15 @@
 
 ## Context & Doel
 
-Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. 
+| Leer hoe ChatGPT betrouwbaar te gebruiken |
+|-----|
+| 1. Begrijp wat ChatGPT wel en niet kan doen 
+| 2. Effectieve prompts schrijven
+| 3. Vervolgvragen schrijven
+| 4. Waarschuwing voor nauwkeurigheid
 
-Het is gevoed met meer dan 8 miljoen unieke dialogen.
-ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. 
-
-Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
-
-Deze GitHub repository is een ChatGPT primer met bijsluiter.
-<br>
-
-
+Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
+ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
 
 <!--
@@ -39,10 +37,10 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 ```
 
 -->
-<br /> <br /> 
+<br /> 
 
 
-<img align="left" width="200" height="300" src="https://user-images.githubusercontent.com/684692/212558117-0445bc99-5ef7-438c-9421-e758f64473da.jpg">
+<img align="left" width="150" height="270" src="https://user-images.githubusercontent.com/684692/212558117-0445bc99-5ef7-438c-9421-e758f64473da.jpg">
 
 
 <br>
@@ -126,10 +124,10 @@ De prompt wordt vervolgens doorgegeven aan het model, die op zijn beurt hier op 
 De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of opdrachten uitvoert zoals een mens dat zou doen.
 
 
-<br /> 
+<br /> <br> <br> <br>
 
 ********
-### [3] Kan ChatGPT uitleggen hoe het werkt?
+### [3] KAN ChatGPT UITLEGGEN HOE HET WERKT?
 
 ********
 
@@ -143,7 +141,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 <br /> 
 
 ********
-### [4] Kan ChatGPT uitleggen hoe het gebruikt zou moeten worden?
+### [4] KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?
 
 ********
 
@@ -158,7 +156,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-[5] Heeft ChatGPT taalbegrip?
+[5] HEEFT ChatGPT TAALBEGRIP?
 
 ********
 
@@ -171,7 +169,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 ********
 
-[6] Kan ChatGPT logisch redeneren?
+[6] KAN ChatGPT LOGISCH REDENEREN?
 
 ********
 
@@ -183,12 +181,11 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 | Human | Volgens mij moet het antwoord dan zijn 4050? | ChatGPT |Mijn excuses, u heeft gelijk, als we uitgaan van de hypothetische logica waarin 20+30=2030, dan zou het antwoord van 40+50 = 4050 zijn. |
 | Human | Wat is het antwoord op 10 + 5 ? | ChatGPT |Volgens de logica die u geeft, zou het antwoord 105 moeten zijn.|
 
-
 <br /> 
 
 ********
 
-[7] Kan je  ChatGPT gebruiken om broncode te schrijven?
+[7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
 
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
@@ -216,7 +213,7 @@ print(fullText)
 
 <br /> 
 
-[8] Kun je detecteren of ChatGPT is gebruikt?
+[8] KAN HET GEBRUIKT VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
 
@@ -224,7 +221,7 @@ https://openai-openai-detector.hf.space/
 
 <br /> 
 
-[9] Kun spreken en tegen ChatGPT?
+[9] KUN JE SPREKEN TEGEN ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
 
@@ -235,7 +232,7 @@ https://github.com/platelminto/chatgpt-conversation
 
 ********
 
-[10] KNOWN ISSUES MET CHatGPT
+[10] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 
 ********
 
