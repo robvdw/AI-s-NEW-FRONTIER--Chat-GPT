@@ -148,12 +148,9 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 
 ********
-### [3] Kan ChatGPT uitleggen hoe het gebruikt zou moeten worden?
+### [4] Kan ChatGPT uitleggen hoe het gebruikt zou moeten worden?
 
 ********
-
-
-
 
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
@@ -165,7 +162,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 <br /> 
 
 ********
-### [4] PROMPT VOORBEELDEN
+### [5] PROMPT VOORBEELDEN
 
 
 ********
