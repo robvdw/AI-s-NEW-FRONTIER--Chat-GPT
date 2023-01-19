@@ -275,6 +275,7 @@ print(fullText)
 ### [10] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
  
 ********
+
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Kun je een les bedenken van een reeks van drie waarin je met Python code voorbeelden geeft van hoe een Deep Neuraal netwerk kan worden (1) Geconstrueerd;  (2) De hyper-parameters worden beschreven; (3) Laat zien hoe het netwerk wordt getraind? | ChatGPT | Hier is een voorbeeld van een lesreeks van drie waarin wordt uitgelegd hoe een diep neurale netwerk (DNN) kan worden geconstrueerd, de hyperparameters beschreven en getraind met Python code: |
@@ -373,13 +374,93 @@ print('Test accuracy:', test_acc)
 Let op: deze code is een voorbeeld en is niet direct uitvoerbaar. Variabelen zoals X_train, y_train, X_val, y_val, X_test, y_test moeten eerst worden gedefinieerd en de juiste libraries geïmporteerd.
 
 
+<br /> 
+
+********
+
+### [11] KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?
+ 
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je de onderstaande code uitleggen en voorzien van extra commentaar zodat een beginnende Python coder de werking ervan kan begrijpen? | ChatGPT | Zie Text voor uitleg van de code |
+
+```python
+import os
+import numpy as np
+import pandas as pd
+from pandas import DataFrame as df
+
+currentdir = os.getcwd() + r'/RAW_DATA/NON'
+flist = pd.DataFrame()
+
+# create dataframe with list of .docx files in de data map
+for r, d, f in os.walk(currentdir):
+    for idx, file in enumerate(f):
+        if ".docx" in file:
+            #print(os.path.join( ' ', file))
+            temp = df([file], index = [idx+1])
+            flist = pd.concat([flist, temp])   
+            
+#  Create column label "filename"      
+filenameslist = flist.rename(columns={0: 'filename'})
+
+```
+
+Deze code leest de volgende Python modules in:
+
+#### STAP 01
+* os: deze module bevat functies voor interactie met het besturingssysteem, zoals het verkrijgen van de huidige map (os.getcwd())
+* numpy: deze module bevat veelgebruikte functies voor wiskundige berekeningen en bevat onder andere het np object dat vaak gebruikt wordt als alias
+* pandas: deze module bevat functies voor het werken met datatabellen, zoals het aanmaken van een DataFrame (pd.DataFrame())
+De code begint met het instellen van de huidige map als de map waar de data staat (currentdir) plus een submap RAW_DATA/NON. 
+
+#### STAP 02
+Daarna wordt een lege DataFrame aangemaakt (flist = pd.DataFrame()).
+
+#### STAP 03
+Vervolgens wordt er met een for-loop door de huidige map (currentdir) gelopen met os.walk(). Deze functie geeft 3 argumenten terug:
+
+* r: de huidige map
+* d: een lijst met submappen in de huidige map
+* f: een lijst met bestanden in de huidige map
+
+De for-loop loopt door deze lijst met bestanden (f) en checkt of elk bestand eindigt op ".docx". Als dat zo is, wordt het bestand toegevoegd aan de lege DataFrame (flist) als een nieuwe rij met als index het huidige aantal rijen + 1.
+
+#### STAP 04
+Als laatste wordt er een kolomlabel "filename" toegevoegd aan de DataFrame met de lijst van bestanden.
+
+ 
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun de uitkomst simuleren?  | ChatGPT | Zie Text voor de gesimuleerde uitkomst volgend ChatGPT |
+
+
+ Laten we zeggen dat de folder de volgende bestanden bevat:
+
+* test1.docx
+* test2.docx
+* test3.docx
+* test4.pdf
+
+Dan zou de output van de code een DataFrame zijn met de volgende inhoud:
+
+```
+    filename
+1   test1.docx
+2   test2.docx
+3   test3.docx
+
+```
+
+De DataFrame zou dus alleen de bestanden bevatten die eindigen op ".docx", en zou een kolom hebben met de naam "filename" met daarin de bestandsnamen.
+
 ********
 
 <br /> 
 
 ********
 
-### [11] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
+### [12] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
 
@@ -389,7 +470,7 @@ https://openai-openai-detector.hf.space/
 
 ********
 
-### [12] KUN JE SPREKEN TEGEN ChatGPT?
+### [13] KUN JE SPREKEN TEGEN ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
 
@@ -400,37 +481,38 @@ https://github.com/platelminto/chatgpt-conversation
 
 ********
 
-### [13] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
+### [14] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 
 ********
 
 <br /> 
 
 ********
-### [14] PROMPT VOORBEELDEN
+### [15] PROMPT VOORBEELDEN
 
 De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
 ********
 
-
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640177-747d0ab2-1852-4423-b27d-ef359e365407.png">
-
+#### Voorbeeld 01: Linux Terminal
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640181-5dd706fb-a3c2-4f8c-a8ed-e339f4e37416.png">
+#### Voorbeeld 02: Interviewer
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640177-747d0ab2-1852-4423-b27d-ef359e365407.png">
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+#### Voorbeeld 03: Talige Excel
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640181-5dd706fb-a3c2-4f8c-a8ed-e339f4e37416.png">
 
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640182-2c972779-e064-4f74-ad62-82df78396ea9.png">
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+#### Voorbeeld 04: Corrupte plagiaat controleur
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640182-2c972779-e064-4f74-ad62-82df78396ea9.png">
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
