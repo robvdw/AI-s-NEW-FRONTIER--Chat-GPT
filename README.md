@@ -23,6 +23,7 @@ Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](http
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
 
+
 <!--
 
 $${\color{blue} \fbox{Deze GitHub repository is een ChatGPT primer met bijsluiter.}}$$
@@ -50,25 +51,30 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 
-<br><br><BR>
-
-* [1] [HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?](###-[1]-HOE-LEREN-COMPUTERS-EEN-GESPREK-TE-VOEREN?)
-* [2] [HOE GEEF IK EEN OPDRACHT AAN CHATGPT?](###-[2]-HOE-GEEF-IK-EEN-OPDRACHT-AAN-CHATGPT?)
-* [3] [KAN ChatGPT UITLEGGEN HOE HET WERKT?](###-[3]-KAN-ChatGPT-UITLEGGEN-HOE-HET-WERKT?)
-* [4] [KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?](###-[4]-KAN-ChatGPT-UITLEGGEN-HOE-HET-TE-GEBRUIKEN?)
-* [5] [HEEFT ChatGPT TAALBEGRIP?](###-[5]-HEEFT-ChatGPT-TAALBEGRIP?)
-* [6] [KAN ChatGPT LOGISCH REDENEREN?](###-[6]-KAN-ChatGPT-LOGISCH-REDENEREN?)
-* [7] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?]
-* [8] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN?]
-* [9] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?]
-* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE 
-* [11] [KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?]
-* [12] [KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?]
-* [14] [BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES]
-* [15] [PROMPT VOORBEELDEN]
+<br><br><br>
 
 
 
+
+* [1] [HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?](#v1)
+* [2] [HOE GEEF IK EEN OPDRACHT AAN CHATGPT?](#v2)
+* [3] [KAN ChatGPT UITLEGGEN HOE HET WERKT?](#v3)
+* [4] [KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?](#v4)
+* [5] [HEEFT ChatGPT TAALBEGRIP?](#v5)
+* [6] [KAN ChatGPT LOGISCH REDENEREN?](#v6)
+* [7] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?](#v7)
+* [8] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN?](#v8)
+* [9] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?](#v9)
+* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE] MAKEN?](#v10)
+* [11] [KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?](#v11)
+* [12] [KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?](#v12)
+* [13] [KUN JE SPREKEN TEGEN ChatGPT?](#v13)
+* [14] [BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES](#v14)
+* [15] [PROMPT VOORBEELDEN](#v15)
+
+
+
+# v1
 
 *******
 ### [1] HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
@@ -126,8 +132,9 @@ Geraadpleegde bronnen:
 
 <br>
 
+# v2
 ********
-### [2] HOE GEEF IK EEN OPDRACHT AAN CHATGPT?
+### [2] HOE GEEF IK EEN OPDRACHT AAN CHATGPT? #link2
 
 ********
 
@@ -144,6 +151,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> <br> <br> <br>
 
+# v3
 ********
 ### [3] KAN ChatGPT UITLEGGEN HOE HET WERKT?
 
@@ -158,6 +166,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v4
 ********
 ### [4] KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?
 
@@ -172,8 +181,8 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v5
 ********
-
 ### [5] HEEFT ChatGPT TAALBEGRIP?
 
 ********
@@ -185,8 +194,8 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v6
 ********
-
 ### [6] KAN ChatGPT LOGISCH REDENEREN?
 
 ********
@@ -201,10 +210,9 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v7
 ********
-
 ### [7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
- 
 ********
 
 | agent | prompt | agent | response |
@@ -233,10 +241,9 @@ print(fullText)
 
 <br /> 
 
+# v8
 ********
-
 ### [8] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN VOLGENS APA-stijl?
- 
 ********
 
 | agent | prompt | agent | response |
@@ -277,21 +284,20 @@ print(fullText)
 
 <br /> 
 
+# v9
+********
+### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
 ********
 
-### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
- 
-********
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Kun je een synthese geven waarin de overeenkomst wordt beschreven van de bovenstaande 3 bronnen in minder dan 500 woorden? | ChatGPT | De drie bronnen die ik eerder genoemd heb, beschrijven allemaal Deep Learning als een subveld van kunstmatige intelligentie dat zich richt op het ontwikkelen van diepe neurale netwerken. Ze beschrijven hoe Deep Learning in staat is om complexe patronen in grote hoeveelheden data te herkennen en te generaliseren, en hoe het een groeiende belangstelling heeft gekregen in de afgelopen jaren.<br> <br> De bronnen bespreken ook hoe Deep Learning wordt toegepast in diverse gebieden zoals beeldherkenning, spraakherkenning, natuurlijke taalverwerking en andere. Ze benadrukken dat deep learning methoden vaak een betere prestatie geven dan traditionele methoden van machine learning.<br> <br> Ze beschrijven ook de belangrijkste uitdagingen die nog moeten worden overwonnen zoals regulering, interpretabiliteit, en generalisatie.<br> <br>  Al de bronnen bespreken de verschillende soorten diepe neurale netwerken die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.<br> <br>  Al met al, de drie bronnen geven een uitgebreide introductie tot Deep Learning, met nadruk op de principes en technieken van diepe neurale netwerken, de toepassingsgebieden waar het meest effectief is en de uitdagingen die nog moeten worden overwonnen. |
 
 <br /> 
 
+# v10
 ********
-
 ### [10] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
- 
 ********
 
 | agent | prompt | agent | response |
@@ -394,10 +400,11 @@ Let op: deze code is een voorbeeld en is niet direct uitvoerbaar. Variabelen zoa
 
 <br /> 
 
+# v11
+********
+### [11] KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?
 ********
 
-### [11] KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?
- 
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Kun je de onderstaande code uitleggen en voorzien van extra commentaar zodat een beginnende Python coder de werking ervan kan begrijpen? | ChatGPT | Zie Text voor uitleg van de code |
@@ -476,40 +483,37 @@ De DataFrame zou dus alleen de bestanden bevatten die eindigen op ".docx", en zo
 
 <br /> 
 
+# v12
 ********
-
 ### [12] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
-
 ********
 
 <br /> 
 
+# v13
 ********
-
 ### [13] KUN JE SPREKEN TEGEN ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
-
 ********
 
 <br /> 
 
-
+v14
 ********
-
 ### [14] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
-
 ********
 
 <br /> 
 
+# v15
 ********
 ### [15] PROMPT VOORBEELDEN
-
-De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
 ********
+De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
+
 
 #### Voorbeeld 01: Linux Terminal
 <img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
