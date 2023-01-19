@@ -14,13 +14,14 @@
 
 | Leer hoe ChatGPT betrouwbaar te gebruiken |
 |-----|
-| 1. Begrijp wat ChatGPT wel en niet kan doen 
+| 1. Begrijpen wat ChatGPT wel en niet kan doen 
 | 2. Effectieve prompts schrijven
 | 3. Vervolgvragen schrijven
-| 4. Waarschuwing voor nauwkeurigheid
+| 4. Waarschuwing betrouwbaarheid
 
 Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
+
 
 
 <!--
@@ -50,7 +51,30 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 
-<br><br><br><br>
+<br><br><br>
+
+
+
+
+* [1] [HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?](#v1)
+* [2] [HOE GEEF IK EEN OPDRACHT AAN CHATGPT?](#v2)
+* [3] [KAN ChatGPT UITLEGGEN HOE HET WERKT?](#v3)
+* [4] [KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?](#v4)
+* [5] [HEEFT ChatGPT TAALBEGRIP?](#v5)
+* [6] [KAN ChatGPT LOGISCH REDENEREN?](#v6)
+* [7] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?](#v7)
+* [8] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN?](#v8)
+* [9] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?](#v9)
+* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE MAKEN?](#v10)
+* [11] [KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?](#v11)
+* [12] [KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?](#v12)
+* [13] [KUN JE SPREKEN TEGEN ChatGPT?](#v13)
+* [14] [BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES](#v14)
+* [15] [PROMPT VOORBEELDEN](#v15)
+
+
+
+# v1
 
 *******
 ### [1] HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
@@ -108,8 +132,9 @@ Geraadpleegde bronnen:
 
 <br>
 
+# v2
 ********
-### [2] HOE GEEF IK EEN OPDRACHT AAN CHATGPT?
+### [2] HOE GEEF IK EEN OPDRACHT AAN CHATGPT? #link2
 
 ********
 
@@ -126,6 +151,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> <br> <br> <br>
 
+# v3
 ********
 ### [3] KAN ChatGPT UITLEGGEN HOE HET WERKT?
 
@@ -140,6 +166,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v4
 ********
 ### [4] KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?
 
@@ -154,8 +181,8 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v5
 ********
-
 ### [5] HEEFT ChatGPT TAALBEGRIP?
 
 ********
@@ -167,8 +194,8 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v6
 ********
-
 ### [6] KAN ChatGPT LOGISCH REDENEREN?
 
 ********
@@ -183,10 +210,9 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
+# v7
 ********
-
 ### [7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
- 
 ********
 
 | agent | prompt | agent | response |
@@ -215,10 +241,9 @@ print(fullText)
 
 <br /> 
 
+# v8
 ********
-
 ### [8] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN VOLGENS APA-stijl?
- 
 ********
 
 | agent | prompt | agent | response |
@@ -259,22 +284,22 @@ print(fullText)
 
 <br /> 
 
+# v9
+********
+### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
 ********
 
-### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
- 
-********
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Kun je een synthese geven waarin de overeenkomst wordt beschreven van de bovenstaande 3 bronnen in minder dan 500 woorden? | ChatGPT | De drie bronnen die ik eerder genoemd heb, beschrijven allemaal Deep Learning als een subveld van kunstmatige intelligentie dat zich richt op het ontwikkelen van diepe neurale netwerken. Ze beschrijven hoe Deep Learning in staat is om complexe patronen in grote hoeveelheden data te herkennen en te generaliseren, en hoe het een groeiende belangstelling heeft gekregen in de afgelopen jaren.<br> <br> De bronnen bespreken ook hoe Deep Learning wordt toegepast in diverse gebieden zoals beeldherkenning, spraakherkenning, natuurlijke taalverwerking en andere. Ze benadrukken dat deep learning methoden vaak een betere prestatie geven dan traditionele methoden van machine learning.<br> <br> Ze beschrijven ook de belangrijkste uitdagingen die nog moeten worden overwonnen zoals regulering, interpretabiliteit, en generalisatie.<br> <br>  Al de bronnen bespreken de verschillende soorten diepe neurale netwerken die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.<br> <br>  Al met al, de drie bronnen geven een uitgebreide introductie tot Deep Learning, met nadruk op de principes en technieken van diepe neurale netwerken, de toepassingsgebieden waar het meest effectief is en de uitdagingen die nog moeten worden overwonnen. |
 
 <br /> 
 
+# v10
+********
+### [10] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
 ********
 
-### [10] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
- 
-********
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Kun je een les bedenken van een reeks van drie waarin je met Python code voorbeelden geeft van hoe een Deep Neuraal netwerk kan worden (1) Geconstrueerd;  (2) De hyper-parameters worden beschreven; (3) Laat zien hoe het netwerk wordt getraind? | ChatGPT | Hier is een voorbeeld van een lesreeks van drie waarin wordt uitgelegd hoe een diep neurale netwerk (DNN) kan worden geconstrueerd, de hyperparameters beschreven en getraind met Python code: |
@@ -373,64 +398,143 @@ print('Test accuracy:', test_acc)
 Let op: deze code is een voorbeeld en is niet direct uitvoerbaar. Variabelen zoals X_train, y_train, X_val, y_val, X_test, y_test moeten eerst worden gedefinieerd en de juiste libraries geïmporteerd.
 
 
+<br /> 
+
+# v11
+********
+### [11] KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?
+********
+
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je de onderstaande code uitleggen en voorzien van extra commentaar zodat een beginnende Python coder de werking ervan kan begrijpen? | ChatGPT | Zie Text voor uitleg van de code |
+
+```python
+import os
+import numpy as np
+import pandas as pd
+from pandas import DataFrame as df
+
+currentdir = os.getcwd() + r'/RAW_DATA/NON'
+flist = pd.DataFrame()
+
+# create dataframe with list of .docx files in de data map
+for r, d, f in os.walk(currentdir):
+    for idx, file in enumerate(f):
+        if ".docx" in file:
+            #print(os.path.join( ' ', file))
+            temp = df([file], index = [idx+1])
+            flist = pd.concat([flist, temp])   
+            
+#  Create column label "filename"      
+filenameslist = flist.rename(columns={0: 'filename'})
+
+```
+
+Deze code leest de volgende Python modules in:
+
+#### STAP 01
+* os: deze module bevat functies voor interactie met het besturingssysteem, zoals het verkrijgen van de huidige map (os.getcwd())
+* numpy: deze module bevat veelgebruikte functies voor wiskundige berekeningen en bevat onder andere het np object dat vaak gebruikt wordt als alias
+* pandas: deze module bevat functies voor het werken met datatabellen, zoals het aanmaken van een DataFrame (pd.DataFrame())
+De code begint met het instellen van de huidige map als de map waar de data staat (currentdir) plus een submap RAW_DATA/NON. 
+
+#### STAP 02
+Daarna wordt een lege DataFrame aangemaakt (flist = pd.DataFrame()).
+
+#### STAP 03
+Vervolgens wordt er met een for-loop door de huidige map (currentdir) gelopen met os.walk(). Deze functie geeft 3 argumenten terug:
+
+* r: de huidige map
+* d: een lijst met submappen in de huidige map
+* f: een lijst met bestanden in de huidige map
+
+De for-loop loopt door deze lijst met bestanden (f) en checkt of elk bestand eindigt op ".docx". Als dat zo is, wordt het bestand toegevoegd aan de lege DataFrame (flist) als een nieuwe rij met als index het huidige aantal rijen + 1.
+
+#### STAP 04
+Als laatste wordt er een kolomlabel "filename" toegevoegd aan de DataFrame met de lijst van bestanden.
+
+ 
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun de uitkomst simuleren?  | ChatGPT | Zie Text voor de gesimuleerde uitkomst volgend ChatGPT |
+
+
+ Laten we zeggen dat de folder de volgende bestanden bevat:
+
+* test1.docx
+* test2.docx
+* test3.docx
+* test4.pdf
+
+Dan zou de output van de code een DataFrame zijn met de volgende inhoud:
+
+```
+    filename
+1   test1.docx
+2   test2.docx
+3   test3.docx
+
+```
+
+De DataFrame zou dus alleen de bestanden bevatten die eindigen op ".docx", en zou een kolom hebben met de naam "filename" met daarin de bestandsnamen.
+
 ********
 
 <br /> 
 
+# v12
 ********
-
-### [11] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
+### [12] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
 
 https://openai-openai-detector.hf.space/
-
 ********
 
 <br /> 
 
+# v13
 ********
-
-### [12] KUN JE SPREKEN TEGEN ChatGPT?
+### [13] KUN JE SPREKEN TEGEN ChatGPT?
 
 https://github.com/platelminto/chatgpt-conversation
-
 ********
 
 <br /> 
 
-
+# v14
 ********
-
-### [13] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
-
+### [14] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 ********
 
 <br /> 
 
+# v15
 ********
-### [14] PROMPT VOORBEELDEN
-
+### [15] PROMPT VOORBEELDEN
+********
 De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
-********
 
 
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640177-747d0ab2-1852-4423-b27d-ef359e365407.png">
-
+#### Voorbeeld 01: Linux Terminal
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640154-7a754bbe-61cf-4986-ac73-8e6a42c110b3.png">
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640181-5dd706fb-a3c2-4f8c-a8ed-e339f4e37416.png">
+#### Voorbeeld 02: Interviewer
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640177-747d0ab2-1852-4423-b27d-ef359e365407.png">
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+#### Voorbeeld 03: Talige Excel
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640181-5dd706fb-a3c2-4f8c-a8ed-e339f4e37416.png">
 
-<img align="right" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640182-2c972779-e064-4f74-ad62-82df78396ea9.png">
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+#### Voorbeeld 04: Corrupte plagiaat controleur
+<img align="left" width="600" height="450" src="https://user-images.githubusercontent.com/684692/212640182-2c972779-e064-4f74-ad62-82df78396ea9.png">
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
