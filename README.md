@@ -14,10 +14,10 @@
 
 | Leer hoe ChatGPT betrouwbaar te gebruiken |
 |-----|
-| 1. Begrijp wat ChatGPT wel en niet kan doen 
+| 1. Begrijpen wat ChatGPT wel en niet kan doen 
 | 2. Effectieve prompts schrijven
 | 3. Vervolgvragen schrijven
-| 4. Waarschuwing voor nauwkeurigheid
+| 4. Waarschuwing betrouwbaarheid
 
 Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
@@ -50,7 +50,25 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 
-<br><br><br><br>
+<br><br><BR>
+
+* [1] [HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?](###HOE-LEREN-COMPUTERS-EEN-GESPREK-TE-VOEREN?)
+* [2] [HOE GEEF IK EEN OPDRACHT AAN CHATGPT?](###HOE-GEEF-IK-EEN-OPDRACHT-AAN-CHATGPT?)
+* [3] [KAN ChatGPT UITLEGGEN HOE HET WERKT?](###KAN-ChatGPT-UITLEGGEN-HOE-HET-WERKT?)
+* [4] [KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?](###KAN-ChatGPT-UITLEGGEN-HOE-HET-TE-GEBRUIKEN?)
+* [5] [HEEFT ChatGPT TAALBEGRIP?](###HEEFT-ChatGPT-TAALBEGRIP?)
+* [6] [KAN ChatGPT LOGISCH REDENEREN?](###KAN-ChatGPT-LOGISCH-REDENEREN?)
+* [7] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?]
+* [8] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN?]
+* [9] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?]
+* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE 
+* [11] [KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?]
+* [12] [KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?]
+* [14] [BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES]
+* [15] [PROMPT VOORBEELDEN]
+
+
+
 
 *******
 ### [1] HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
