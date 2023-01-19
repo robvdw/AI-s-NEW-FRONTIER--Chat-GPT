@@ -506,6 +506,15 @@ https://github.com/platelminto/chatgpt-conversation
 ### [14] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 ********
 
+| ISSUE |
+| ----- |
+| 1. ChatGPT heeft niet altijd gelijk
+Het faalt in elementaire wiskunde, kan niet lijken te beantwoorden eenvoudige logica vragen, en zal zelfs gaan zo ver om te betogen volledig onjuiste feiten. Zoals gebruikers van sociale media kunnen getuigen, kan ChatGPT het meer dan eens bij het verkeerde eind hebben.
+
+OpenAI weet van deze beperking en schrijft dat: "ChatGPT schrijft soms plausibel klinkende maar onjuiste of onzinnige antwoorden." Deze "hallucinatie" van feit en fictie, zoals sommige wetenschappers het noemen, is vooral gevaarlijk als het gaat om zoiets als medisch advies.
+
+
+
 <br /> 
 
 # v15
