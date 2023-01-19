@@ -65,7 +65,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 * [7] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?](#v7)
 * [8] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN?](#v8)
 * [9] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?](#v9)
-* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE] MAKEN?](#v10)
+* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE MAKEN?](#v10)
 * [11] [KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?](#v11)
 * [12] [KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?](#v12)
 * [13] [KUN JE SPREKEN TEGEN ChatGPT?](#v13)
@@ -501,7 +501,7 @@ https://github.com/platelminto/chatgpt-conversation
 
 <br /> 
 
-v14
+# v14
 ********
 ### [14] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 ********
