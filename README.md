@@ -81,7 +81,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 *******
 
 
-Een taalvaardig AI-model kan worden "gevraagd" om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+Een taalvaardig AI-model kan worden *"gevraagd"* om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
 Om ChatGTP mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast en getraind op basis van een grote hoeveelheid aan opdrachten in combinatie met menselijke feedback. 
 
@@ -122,7 +122,6 @@ Voorbeeld03 : Het door de mens vervaardigde antwoord
 Voorbeeld03 : fungeert als instructief voorbeeld  voor het model
 Voorbeeld03 : hoe het dient reageren op een prompt
 ```
-
 
 <br> <br>
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
