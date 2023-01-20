@@ -125,10 +125,8 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 
 
 <br> <br>
-
-
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
-Doordat het ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet, is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan informatie heeft opgeslagen.
+Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
 
 
 
