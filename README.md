@@ -83,14 +83,12 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 Een taalvaardig AI-model kan worden "gevraagd" om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-<br> Om ChatGTP mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast en getraind op basis van een grote hoeveelheid aan opdrachten in combinatie met menselijke feedback. 
+Om ChatGTP mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast en getraind op basis van een grote hoeveelheid aan opdrachten in combinatie met menselijke feedback. 
 
-Zo *"leert"* het taalmodel opdrachten uit te voeren aan de hand van van  menselijke feedback. Leren op basis van feedback wordt *"reinfored learning"* genoemd. In het Nederlands vertaald: *"training onder toezicht"*. 
+Zo *"leert"* het taalmodel opdrachten uit te voeren aan de hand van van  menselijke feedback. Leren op basis van feedback wordt *"reinfored learning"* genoemd. Deze methodiek van *"belonend leren onder toezicht"* is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van feedback.
 
-<br> Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* met mensen. 
-
-Dit is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
- In dit geval door het simuleren antwoorden in reachtie op een opdracht. 
+Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* met mensen. Dit is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
+ In dit geval door het simuleren antwoorden in reactie op een opdracht. 
 
  <br>
 
@@ -128,9 +126,11 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 
 <br> <br>
 
-########
-En groot probleem bij 
-Dit beperkt het model omdat het ideale antwoord afhangt *niet* van wat het model aan informatie heeft opgeslagen, in plaats van wat de menselijke demonstrator weet.
+
+Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
+Doordat het ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet, is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan informatie heeft opgeslagen.
+
+
 
 
 Geraadpleegde bronnen: 
