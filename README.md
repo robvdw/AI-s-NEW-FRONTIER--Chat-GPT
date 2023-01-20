@@ -128,12 +128,10 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
 Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
 
-
-
-
 Geraadpleegde bronnen: 
 * Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155 
 * OpenAI Guthub Repository: InstructGPT [Training Language Models to Follow Instructions with Human Feedback.](https://github.com/openai/following-instructions-human-feedback)
+* SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
 
 <br>
 
