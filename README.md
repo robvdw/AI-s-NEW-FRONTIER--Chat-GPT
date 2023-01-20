@@ -81,16 +81,18 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 *******
 
 
-Een taalvaardig AI-model kan worden "gevraagd" om een taak uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+Een taalvaardig AI-model kan worden "gevraagd" om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Dit proces is vergelijkbaar met een Google zoekopdracht. <br> Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, <br> maar een antwoord zoals een mens dat zou geven.
+<br> Om ChatGTP mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast en getraind op basis van een grote hoeveelheid aan opdrachten in combinatie met menselijke feedback. 
 
-Om hieraan te voldoen moet de chatbot eerst worden getraind aan de hand van een grote hoeveelheid 
-voorbeelden van deze taak in combinatie met menselijke feedback
+Zo *"leert"* het taalmodel opdrachten uit te voeren aan de hand van van  menselijke feedback. Leren op basis van feedback wordt *"reinfored learning"* genoemd. In het Nederlands vertaald: *"training onder toezicht"*. 
 
-Binnen het AI-domain wordt dit proces *"reinfored learning"* genoemd. <br> Het is een proces waarbij een taalmodel wordt aangepast op basis van feedback gerelateerd aan een specifieke taak. <br> In dit geval het voeren van een gesprek.
+<br> Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* met mensen. 
 
-<br>
+Dit is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
+ In dit geval door het simuleren antwoorden in reachtie op een opdracht. 
+
+ <br>
 
 <div style="float:center;">
 
@@ -125,6 +127,11 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 
 
 <br> <br>
+
+########
+En groot probleem bij 
+Dit beperkt het model omdat het ideale antwoord afhangt *niet* van wat het model aan informatie heeft opgeslagen, in plaats van wat de menselijke demonstrator weet.
+
 
 Geraadpleegde bronnen: 
 * Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155 
@@ -512,7 +519,7 @@ door Garling Wu op 22 december 2020
 | ISSUE |
 | ----- |
 | <br> <br> 1. ChatGPT is vaak feitelijk onjuist <br> <br>|
-Het faalt in [elementaire wiskunde](#v6), kan niet lijken te beantwoorden eenvoudige logica vragen, en zal zelfs gaan zo ver om te betogen volledig onjuiste feiten. Zoals gebruikers van sociale media kunnen getuigen, kan ChatGPT het meer dan eens bij het verkeerde eind hebben.<br> <br> OpenAI weet van deze beperking en schrijft dat: "ChatGPT schrijft soms plausibel klinkende maar onjuiste of onzinnige antwoorden." Deze "hallucinatie" van feit en fictie, zoals sommige wetenschappers het noemen, is vooral gevaarlijk als het gaat om zoiets als medisch advies. <br> <br> In tegenstelling tot andere AI-assistenten zoals Siri of Alexa, gebruikt Chat GPT het internet niet om antwoorden te vinden. <br> In plaats daarvan wordt een zin woord voor woord opgebouwd, waarbij op basis van de training de meest waarschijnlijke "token" wordt geselecteerd die daarna komt. <br> <br> Met andere woorden, ChatGPT komt tot een antwoord door een reeks gissingen, wat een deel van de reden is dat het foute antwoorden kan beargumenteren alsof ze volledig waar zijn.<br> <br>Hoewel het goed is in het uitleggen van complexe concepten, waardoor het een krachtig leermiddel is, is het belangrijk niet alles te geloven wat het zegt. ChatGPT is niet altijd correct - tenminste, nog niet.|
+Het faalt in [elementaire wiskunde](#v6), het beantwoorden van eenvoudige logica vragen.  en zal zelfs gaan zo ver om te betogen volledig onjuiste feiten. Zoals gebruikers van sociale media kunnen getuigen, kan ChatGPT het meer dan eens bij het verkeerde eind hebben.<br> <br> OpenAI weet van deze beperking en schrijft dat: "ChatGPT schrijft soms plausibel klinkende maar onjuiste of onzinnige antwoorden." Deze "hallucinatie" van feit en fictie, zoals sommige wetenschappers het noemen, is vooral gevaarlijk als het gaat om zoiets als medisch advies. <br> <br> In tegenstelling tot andere AI-assistenten zoals Siri of Alexa, gebruikt Chat GPT het internet niet om antwoorden te vinden. <br> In plaats daarvan wordt een zin woord voor woord opgebouwd, waarbij op basis van de training de meest waarschijnlijke "token" wordt geselecteerd die daarna komt. <br> <br> Met andere woorden, ChatGPT komt tot een antwoord door een reeks gissingen, wat een deel van de reden is dat het foute antwoorden kan beargumenteren alsof ze volledig waar zijn.<br> <br>Hoewel het goed is in het uitleggen van complexe concepten, waardoor het een krachtig leermiddel is, is het belangrijk niet alles te geloven wat het zegt. ChatGPT is niet altijd correct - tenminste, nog niet.|
 | <br> <br> 2. Vooringenomenheid lijkt ingebakken in het model <br> <br> |
 | ChatGPT is getraind op het collectieve schrijven van mensen over de hele wereld, vroeger en nu. Dit betekent dat dezelfde vooroordelen die in de gegevens bestaan, ook in het model kunnen voorkomen.<br> <br> In feite hebben gebruikers laten zien hoe ChatGPT een aantal vreselijke antwoorden kan geven, sommige bijvoorbeeld die vrouwen discrimineren. Maar dat is slechts het topje van de ijsberg; het kan antwoorden produceren die uiterst schadelijk zijn voor een reeks minderheidsgroepen.<br> <br> De schuld ligt ook niet alleen bij de gegevens. De onderzoekers en ontwikkelaars van OpenAI kiezen de gegevens die worden gebruikt om ChatGPT te trainen. Om wat OpenAI "vooringenomen gedrag" noemt aan te pakken, vraagt het gebruikers om feedback te geven op slechte outputs.<br> <br> Met het potentieel om mensen schade toe te brengen, kun je stellen dat ChatGPT niet aan het publiek had moeten worden vrijgegeven voordat deze problemen zijn bestudeerd en opgelost.<br> <br> Een soortgelijke AI-chatbot genaamd Sparrow (eigendom van Google's moederbedrijf Alphabet) werd in september 2022 vrijgegeven. Het werd echter achter gesloten deuren gehouden vanwege vergelijkbare zorgen dat het schade zou kunnen veroorzaken.<br> <br> Misschien had Meta de waarschuwing ook moeten koppen. Toen het Galactica uitbracht, een AI-taalmodel getraind op academische papers, werd het snel teruggeroepen nadat veel mensen het bekritiseerden voor het uitvoeren van verkeerde en bevooroordeelde resultaten.|
 |<br> <br> 3. Nederlandse grammatica, syntax en spelling bevat regelmatig fouten <br> <br>| 
