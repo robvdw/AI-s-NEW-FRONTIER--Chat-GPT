@@ -19,10 +19,10 @@
 | 3. Vervolgvragen schrijven
 | 4. Waarschuwing betrouwbaarheid
 
-Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taalverwerkende [NLP] AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
+Exemplarisch voor AI anno 2023 is de lerende machine [ML] genaamd [ChatGPT](https://chat.openai.com/). Een state-of-the-art, grootschalig taalmodel [LLM] dat gebruik maakt van natuurlijke taal verwerkende  [NLP] AI-technologie. Het is gevoed met meer dan 8 miljoen unieke dialogen.
 ChatGPT’s gebruikersinterface is ontworpen om menselijke conversatie na te bootsen. Het revolutionaire aan deze AI-technologie zijn de ogenschijnlijk levensechte gesprekken die het kan onderhouden met mensen.
 
-
+Omdat de toepassingsmogelijkheden van ChatGPT eindeloos zijn, worden in deze repository uitsluitend gebruiksmogelijkheden besproken die relevant zijn voor (1) het leerproces studenten, in combinatie met (2) onderwijstaken van docenten in het hoger onderwijs. Er zullen ook regelmatig updates volgen over nieuwe  ontwikkelingen.
 
 <!--
 
@@ -47,6 +47,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <br>
 
 >Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen. 
+dit is een vrije vertalling van 
 
 
 
@@ -144,7 +145,7 @@ Geraadpleegde bronnen:
 
 ChatGPT maakt gebruik van  *"prompting"* of *"priming"*. 
 
-De prompt is de vraag , het verzoek of de vraag van de gebruiker in tekst-vorm. 
+De prompt is een verzoek, opdracht, instructie of vraag van een  eindgebruiker in tekst-vorm. 
 
 De prompt wordt vervolgens doorgegeven aan het model, die op zijn beurt hier op reageert in text-vorm, waarbij de gegenereerde tekst beetje bij beetje wordt vrijgegeven. 
 
