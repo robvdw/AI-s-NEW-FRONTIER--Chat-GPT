@@ -98,7 +98,14 @@ Kunstmatige intelligentie [AI] anno 2023 verwijst naar technologie die intellige
 
 Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen of muziek. Deze systemen worden gevoed met enorm grote datasets. Daarbij maken ze gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. Voorbeelden hiervan zijn  het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen.
 
-ChatGPT is gebaseerd op een Gen-AI genaamd *"Generative Pre-trained Transformer 3.5"* [GPT-3.5]. Dit state-of-the-art, grootschalig taalmodel [LLM] heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
+ChatGPT is gebaseerd op een Gen-AI genaamd *"Instruct Generative Pre-trained Transformer"* [InstructGPT]. Deze Gen-AI kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het genereren van dialogen en het samenvatten van teksten. 
+
+Het is ontworpen om specifieke instructies of aanwijzingen op te volgen om zo  gestructureerde en gecontroleerde tekst te genereren. Het model wordt getraind op een grote dataset van tekst, en kan worden verfijnd op een kleinere, taakspecifieke dataset om de prestaties op een specifieke taak te verbeteren.
+
+Vertaald met www.DeepL.com/Translator (gratis versie)
+
+
+Dit state-of-the-art, grootschalig taalmodel [LLM] heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
 Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback,.
 
@@ -142,12 +149,34 @@ Dit is grote vernadering in vergelijking met het uitvoeren van zoekopdrachten vi
 
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
 Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
+<br><br>
 
-Geraadpleegde bronnen: 
-* Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155 
-* OpenAI Github Repository: InstructGPT [Training Language Models to Follow Instructions with Human Feedback.](https://github.com/openai/following-instructions-human-feedback)
-* SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
-* Forsyth, O. (2022, December 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
+<div align="left">
+<table>
+<tbody>
+<td align="left">
+
+### Geraadpleegde bronnen: 
+
+* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155
+
+* <sub> Openai.com (2022, januari 27). Instruction Following [Blog]. https://openai.com/blog/instruction-following/
+
+* <sub> Openai.com (2022, januari 27). Following-instructions-human-feedback [Code repository]. https://github.com/openai/following-instructions-human-feedback.
+
+* <sub> SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
+
+* <sub> Forsyth, O. (2022, december 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
+
+* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
+
+* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
+
+</td>
+</tbody>
+</table>
+</div>
+
 
 <br>
 
