@@ -60,8 +60,9 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <table>
 <tbody>
 <td align="left">
+<br>
 
-* [1] [Hoe leren computers een gesprek te voeren?](#v1)
+* [1] [Hoe leren computers een gesprek voeren?](#v1)
 * [2] [Hoe geef ik een opdracht aan chatgpt?](#v2)
 * [3] [Kan chatgpt uitleggen hoe het werkt?](#v3)
 * [4] [Kan chatgpt uitleggen hoe het te gebruiken?](#v4)
@@ -90,7 +91,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 *******
-### [1] HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
+### [1] HOE LEREN COMPUTERS EEN GESPREK VOEREN?
 *******
 
 Kunstmatige intelligentie [AI] anno 2023 verwijst naar technologie die intelligent gedrag van mensen kan nadoen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
