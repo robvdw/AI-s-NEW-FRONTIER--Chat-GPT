@@ -94,18 +94,18 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 ### [1] HOE LEREN COMPUTERS EEN GESPREK VOEREN?
 *******
 
-Kunstmatige intelligentie [AI] anno 2023 verwijst naar technologie die intelligent gedrag van mensen kan nadoen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
+Kunstmatige intelligentie [AI] anno 2023 verwijst naar digitale technologie die intelligent gedrag van mensen kan nadoen en/of overnemen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
 
-Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen of muziek. Deze systemen worden gevoed met enorm grote datasets. Daarbij maken ze gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. Voorbeelden hiervan zijn  het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen.
+Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen en/of muziek. 
 
-ChatGPT is gebaseerd op een Gen-AI genaamd *"Instruct Generative Pre-trained Transformer"* [InstructGPT]. Deze Gen-AI kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het genereren van dialogen en het samenvatten van teksten. 
+Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. Anno 2023, zijn LLMs van het van het type *"Generative Pre-trained Transformer"* [GPT] de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. Voorbeelden hiervan zijn  het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen. GTPs zijn dus natuurlijke taal genererende machines.
 
-Het is ontworpen om specifieke instructies of aanwijzingen op te volgen om zo  gestructureerde en gecontroleerde tekst te genereren. Het model wordt getraind op een grote dataset van tekst, en kan worden verfijnd op een kleinere, taakspecifieke dataset om de prestaties op een specifieke taak te verbeteren.
+ChatGPT is de meest geavanceerde GTP dat publiekelijk beschikbaar eind 2022.
+Het is ontwikkeld door de OpenAI.com *---een Microsoft start-up---*  op basis van InstructGPT.  Deze nieuwe generatie GPT kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het genereren van dialogen en het samenvatten van teksten. 
 
-Vertaald met www.DeepL.com/Translator (gratis versie)
+InstructGPT is ontwikkeld met als doel om op GTP gebaseerde natuurlijke taal genererende machines te optimaliseren op basis van (1) de intentie van de gebruiker; (2) het verhinderen van beledigend taalgebruik; (3) het reduceren verzonnen feiten fouten. 
 
-
-Dit state-of-the-art, grootschalig taalmodel [LLM] heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
+ChatGPT's gebruikersinterface is gespecialiseerd in het uitvoeren van door mensen ingevoerde tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
 Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback,.
 
