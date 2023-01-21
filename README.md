@@ -46,10 +46,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 <br>
 
->Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen. 
-dit is een vrije vertalling van 
-
-
+>Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen.$\text{Economist. (2022, June 9). Artificial intelligence's new frontier. [Online Article].  doi:10.1016/S0140-6736(22)62142-4}$
 
 
 <br><br><br>
@@ -89,8 +86,7 @@ Om ChatGTP mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast en get
 Zo *"leert"* het taalmodel opdrachten uit te voeren aan de hand van van  menselijke feedback. Leren op basis van feedback wordt *"reinfored learning"* genoemd. Deze methodiek van *"belonend leren onder toezicht"* is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van feedback.
 
 Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* met mensen. Dit is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
- In dit geval door het simuleren antwoorden in reactie op een opdracht. 
-
+ 
  <br>
 
 <div style="float:center;">
@@ -123,14 +119,13 @@ Voorbeeld03 : Het door de mens vervaardigde antwoord
 Voorbeeld03 : fungeert als instructief voorbeeld  voor het model
 Voorbeeld03 : hoe het dient reageren op een prompt
 ```
-
-<br> <br>
+<br>
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
 Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
 
 Geraadpleegde bronnen: 
 * Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155 
-* OpenAI Guthub Repository: InstructGPT [Training Language Models to Follow Instructions with Human Feedback.](https://github.com/openai/following-instructions-human-feedback)
+* OpenAI Github Repository: InstructGPT [Training Language Models to Follow Instructions with Human Feedback.](https://github.com/openai/following-instructions-human-feedback)
 * SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
 
 <br>
