@@ -143,7 +143,7 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
 
-Het resultaat is een Gen-AI zoals Chat-GPT dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft  en helpdeskmedewerker met kennis van zaken.
+Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft  en helpdeskmedewerker met kennis van zaken.
 
 Dit is revolutionare stap voor de interactie van eindgebruikers met computers om informatie op te sporen. 
 Het uitvoeren van zoekopdrachten via populaire zoekmachines zoals Baidu, Bing, DuckDuckGo, Goolge, YaHoo! en YouTube is veel omslacjhtiger omdat de uitkomst verwijzing is naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
