@@ -96,13 +96,11 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 Kunstmatige intelligentie [AI] anno 2023 verwijst naar technologie die intelligent gedrag van mensen kan nadoen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
 
-Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen of muziek. Deze systemen worden gevoed met enorm grote datasets en gebruiken algoritmen voor machinaal leren om op commando *"nieuwe"* inhoud te kunnen te genereren. Dit kan nuttig zijn, zoals het automatisch genereren van tekst voor chatbots of nieuws berichten door persagentschappen.
+Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen of muziek. Deze systemen worden gevoed met enorm grote datasets. Daarbij maken ze gebruik van  "machinaal lerende" [ML] algoritmen voor om zo op commando *"nieuwe"* inhoud te kunnen te genereren. Voorbeelden hiervan zijn  het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen.
 
-ChatGPT is gebaseerd op een taalvaardige Gen-AI genaamd GPT3.5 dat heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+ChatGPT is gebaseerd op een Gen-AI genaamd Generative Pre-trained Transformer 3.5 [GPT-3.5], waarbij GPT staat voor . Dit state-of-the-art, grootschalig taalmodel [LLM] heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast op basis van menselijk toezicht en kreeg zo de naam ChatGPT. 
-
-Dat wil zeggen, het taalmodel heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van *"menselijke"*  feedback,.
+Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van *"menselijke"*  feedback,.
 
  <br>
 
