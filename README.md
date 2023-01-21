@@ -48,7 +48,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 >Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen.
 
-<sub> Economist. (2022, June 9). Artificial intelligence's new frontier. Online Article.  
+<sub> Economist. (2022, june Issue). Artificial intelligence's new frontier.  
 [doi:10.1016/S0140-6736(22)62142-4](https://www.economist.com/leaders/2022/06/09/artificial-intelligences-new-frontier) <sub>
 
 <br><br>
@@ -93,8 +93,11 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 ### [1] HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
 *******
 
+Kunstmatige intelligentie [AI] anno 2023 verwijst naar technologie die intelligent gedrag van mensen kan nadoen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
 
-Een taalvaardig AI-model kan worden *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen of muziek. Deze systemen worden gevoed met enorm grote datasets en gebruiken algoritmen voor machinaal leren om op commando *"nieuwe"* inhoud te kunnen te genereren. Dit kan nuttig zijn, zoals het automatisch genereren van tekst voor chatbots of nieuws berichten door persagentschappen.
+
+ChatGPT is gebaseerd op een taalvaardige Gen-AI genaamd GPT3.5 dat heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
 Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast op basis van menselijk toezicht en kreeg zo de naam ChatGPT. 
 
@@ -134,7 +137,7 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
 
-Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* dat eingebruikers de indruk geeft alsof hij/zij wordt te woord gestaan door een hulp-desk medewerker met kennis van zaken.
+Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* dat eingebruikers de indruk geeft alsof hij/zij wordt te woord gestaan door een helpdeskmedewerker met kennis van zaken.
 
 Dit is grote vernadering in vergelijking met het uitvoeren van zoekopdrachten via Google of Bing. Het verschil is dat de uitkomst nu niet een verwijzing is naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
 
@@ -145,6 +148,7 @@ Geraadpleegde bronnen:
 * Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155 
 * OpenAI Github Repository: InstructGPT [Training Language Models to Follow Instructions with Human Feedback.](https://github.com/openai/following-instructions-human-feedback)
 * SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
+* Forsyth, O. (2022, December 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
 
 <br>
 
