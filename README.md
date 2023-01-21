@@ -48,30 +48,46 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 >Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen.
 
-Economist. (2022, June 9). Artificial intelligence's new frontier. Online Article.  
-[doi:10.1016/S0140-6736(22)62142-4](https://www.economist.com/leaders/2022/06/09/artificial-intelligences-new-frontier)  
+<sub> Economist. (2022, June 9). Artificial intelligence's new frontier. Online Article.  
+[doi:10.1016/S0140-6736(22)62142-4](https://www.economist.com/leaders/2022/06/09/artificial-intelligences-new-frontier) <sub>
+
+<br><br>
+************
+# Overzicht  van veel gestelde vragen
+***********
+
+<div align="left">
+<table>
+<tbody>
+<td align="left">
+
+* [1] [Hoe leren computers een gesprek te voeren?](#v1)
+* [2] [Hoe geef ik een opdracht aan chatgpt?](#v2)
+* [3] [Kan chatgpt uitleggen hoe het werkt?](#v3)
+* [4] [Kan chatgpt uitleggen hoe het te gebruiken?](#v4)
+* [5] [Heeft chatgpt taalbegrip?](#v5)
+* [6] [Kan chatgpt logisch redeneren?](#v6)
+* [7] [Kan  chatgpt gebruikt worden om broncode te schrijven?](#v7)
+* [8] [Kan  chatgpt gebruikt worden om bronnen te vermelden?](#v8)
+* [9] [Kan  chatgpt gebruikt worden om bronnen samen te vatten?](#v9)
+* [10] [Kan  chatgpt gebruikt worden om een lessen reeks te maken?](#v10)
+* [11] [Kan  chatgpt gebruikt worden om code uit te leggen?](#v11)
+* [12] [Kan het gebruik van chatgpt gedetecteerd worden?](#v12)
+* [13] [Kun je spreken tegen chatgpt?](#v13)
+* [14] [Bekende problemen & betrouwbaarheid issues](#v14)
+* [15] [Prompt voorbeelden](#v15)
+
+</td>
+</tbody>
+</table>
+</div>
+
 
 <br>
 
-* [1] [HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?](#v1)
-* [2] [HOE GEEF IK EEN OPDRACHT AAN CHATGPT?](#v2)
-* [3] [KAN ChatGPT UITLEGGEN HOE HET WERKT?](#v3)
-* [4] [KAN ChatGPT UITLEGGEN HOE HET TE GEBRUIKEN?](#v4)
-* [5] [HEEFT ChatGPT TAALBEGRIP?](#v5)
-* [6] [KAN ChatGPT LOGISCH REDENEREN?](#v6)
-* [7] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?](#v7)
-* [8] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN?](#v8)
-* [9] [KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?](#v9)
-* [10] [KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE MAKEN?](#v10)
-* [11] [KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?](#v11)
-* [12] [KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?](#v12)
-* [13] [KUN JE SPREKEN TEGEN ChatGPT?](#v13)
-* [14] [BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES](#v14)
-* [15] [PROMPT VOORBEELDEN](#v15)
-
-
 
 # v1
+
 
 *******
 ### [1] HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?
@@ -128,6 +144,7 @@ Geraadpleegde bronnen:
 * SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
 
 <br>
+
 
 # v2
 ********
