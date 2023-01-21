@@ -46,13 +46,12 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 <br>
 
->Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen.$\text{Economist. (2022, June 9). Artificial intelligence's new frontier. [Online Article].  doi:10.1016/S0140-6736(22)62142-4}$
+>Stel je een computer voor die jouw zinnen kan afmaken met een betere zinswending;  of een gesprek met je kan voeren over een thema dat jouw interesseert; of een probleem direct kan oplossen door honderden regels computercode te schrijven binnen enkele seconden. Een dergelijke computer vormt een schakel in een lange keten van werktuigen zoals het weefgetouw, de boekdrukpers en de stoommachine die de industriële revolutie opgang brachten. Tegelijkertijd is het onderdeel van een nieuwe klasse aan _lerende machines_, omdat het de symbolen in taal omzet & computercode schrijft op manieren die creatief lijken. Een beetje zoals een mens dat zou doen.
 
+Economist. (2022, June 9). Artificial intelligence's new frontier. Online Article.  
+[doi:10.1016/S0140-6736(22)62142-4](https://www.economist.com/leaders/2022/06/09/artificial-intelligences-new-frontier)  
 
-<br><br><br>
-
-
-
+<br>
 
 * [1] [HOE LEREN COMPUTERS EEN GESPREK TE VOEREN?](#v1)
 * [2] [HOE GEEF IK EEN OPDRACHT AAN CHATGPT?](#v2)
