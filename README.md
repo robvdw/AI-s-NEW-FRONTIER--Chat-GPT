@@ -100,7 +100,7 @@ Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"
 
 ChatGPT is gebaseerd op een Gen-AI genaamd *"Generative Pre-trained Transformer 3.5"* [GPT-3.5]. Dit state-of-the-art, grootschalig taalmodel [LLM] heeft  *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van *"menselijke"*  feedback,.
+Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcen--* van goed gedrag op basis van *"menselijke"*  feedback,.
 
  <br>
 
