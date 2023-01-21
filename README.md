@@ -100,14 +100,14 @@ Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"
 
 Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. Anno 2023, zijn LLMs van het van het type *"Generative Pre-trained Transformer"* [GPT] de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. Voorbeelden hiervan zijn  het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen. GTPs zijn dus natuurlijke taal genererende machines.
 
-ChatGPT is de meest geavanceerde GTP dat publiekelijk beschikbaar eind 2022.
-Het is ontwikkeld door de OpenAI.com *---een Microsoft start-up---*  op basis van InstructGPT.  Deze nieuwe generatie GPT kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het genereren van dialogen en het samenvatten van teksten. 
+ChatGPT is de meest geavanceerde GTP dat publiekelijk toegankelijk is.
+Het is ontwikkeld door de OpenAI.com in 2022 *---een Microsoft start-up---*  op basis van InstructGPT.  Deze nieuwe generatie GPT kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het samenvatten van teksten, en het voeren van dialogen. 
 
-InstructGPT is ontwikkeld met als doel om op GTP gebaseerde natuurlijke taal genererende machines te optimaliseren op basis van (1) de intentie van de gebruiker; (2) het verhinderen van beledigend taalgebruik; (3) het reduceren verzonnen feiten fouten. 
+InstructGPT is ontwikkeld met als doel om op GTP-2 gebaseerde natuurlijke taal genererende machines te optimaliseren op basis van (1) de intentie van de gebruiker; (2) het verhinderen van beledigend taalgebruik; (3) het reduceren verzonnen feiten fouten. 
 
 ChatGPT's gebruikersinterface is gespecialiseerd in het uitvoeren van door mensen ingevoerde tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback,.
+Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT-3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback,.
 
  <br>
 
@@ -143,9 +143,10 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
 
-Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* dat eingebruikers de indruk geeft alsof hij/zij wordt te woord gestaan door een helpdeskmedewerker met kennis van zaken.
+Het resultaat is een Gen-AI zoals Chat-GPT dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft  en helpdeskmedewerker met kennis van zaken.
 
-Dit is grote vernadering in vergelijking met het uitvoeren van zoekopdrachten via Google of Bing. Het verschil is dat de uitkomst nu niet een verwijzing is naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
+Dit is revolutionare stap voor de interactie van eindgebruikers met computers om informatie op te sporen. 
+Het uitvoeren van zoekopdrachten via populaire zoekmachines zoals Baidu, Bing, DuckDuckGo, Goolge, YaHoo! en YouTube is veel omslacjhtiger omdat de uitkomst verwijzing is naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
 
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
 Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
