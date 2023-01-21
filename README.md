@@ -94,21 +94,19 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 *******
 
 
-Een taalvaardig AI-model kan worden *"gevraagd"* om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
+Een taalvaardig AI-model kan worden *"geleerd"* om een opdracht uit te voeren op basis van tekstuele instructies. <br > Dit heet  *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Om ChatGTP mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast en getraind op basis van een grote hoeveelheid aan opdrachten in combinatie met menselijke feedback. 
+Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is een bestaand taalmodel [GPT3.5] aangepast op basis van menselijk toezicht en kreeg zo de naam ChatGPT. 
 
-Zo *"leert"* het taalmodel opdrachten uit te voeren aan de hand van van  menselijke feedback. Leren op basis van feedback wordt *"reinfored learning"* genoemd. Deze methodiek van *"belonend leren onder toezicht"* is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van feedback.
+Dat wil zeggen, het taalmodel heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is dus een methodiek die aanstuurt op het belonen voor goed gedrag op basis van *"menselijke"*  feedback,.
 
-Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* met mensen. Dit is vergelijkbaar met een Google zoekopdracht. Het verschil is dat de uitkomst nu niet een verwijzing moet zijn naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
- 
  <br>
 
 <div style="float:center;">
 
 ```mermaid
 ---
-title: [ChatGPT volgt menselijke instructies]
+title: [ChatGPT heeft opdrachten leren uitvoeren op basis van  menselijke demonstraties]
 ---
 classDiagram
 DataBase --|> Mens
@@ -135,6 +133,11 @@ Voorbeeld03 : fungeert als instructief voorbeeld  voor het model
 Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
+
+Het resultaat is een AI-model dat in staat is om een gesprek te *"simuleren"* dat eingebruikers de indruk geeft alsof hij/zij wordt te woord gestaan door een hulp-desk medewerker met kennis van zaken.
+
+Dit is grote vernadering in vergelijking met het uitvoeren van zoekopdrachten via Google of Bing. Het verschil is dat de uitkomst nu niet een verwijzing is naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
+
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
 Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
 
