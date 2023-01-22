@@ -62,19 +62,20 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <td align="left">
 <br>
 
+* [0] [Basis Begrippen](#v0)
 * [1] [Hoe leren computers een gesprek voeren?](#v1)
-* [2] [Hoe geef ik een opdracht aan chatgpt?](#v2)
-* [3] [Kan chatgpt uitleggen hoe het werkt?](#v3)
-* [4] [Kan chatgpt uitleggen hoe het te gebruiken?](#v4)
-* [5] [Heeft chatgpt taalbegrip?](#v5)
-* [6] [Kan chatgpt logisch redeneren?](#v6)
-* [7] [Kan  chatgpt gebruikt worden om broncode te schrijven?](#v7)
-* [8] [Kan  chatgpt gebruikt worden om bronnen te vermelden?](#v8)
-* [9] [Kan  chatgpt gebruikt worden om bronnen samen te vatten?](#v9)
-* [10] [Kan  chatgpt gebruikt worden om een lessen reeks te maken?](#v10)
-* [11] [Kan  chatgpt gebruikt worden om code uit te leggen?](#v11)
-* [12] [Kan het gebruik van chatgpt gedetecteerd worden?](#v12)
-* [13] [Kun je spreken tegen chatgpt?](#v13)
+* [2] [Hoe geef ik een opdracht aan ChatGPT?](#v2)
+* [3] [Kan ChatGPT uitleggen hoe het werkt?](#v3)
+* [4] [Kan ChatGPT uitleggen hoe het te gebruiken?](#v4)
+* [5] [Heeft ChatGPT taalbegrip?](#v5)
+* [6] [Kan ChatGPT logisch redeneren?](#v6)
+* [7a] [Kan  ChatGPT broncode schrijven?](#v7a)
+* [7b] [Kan ChatGPT  broncode uit te leggen?](#v7b)
+* [7c] [Kan ChatGPT een "Deep Learning" lessenreeks bedenken?](#v7c)
+* [8] [Kan ChatGPT gebruikt worden om bronnen te vermelden?](#v8)
+* [9] [Kan ChatGPT gebruikt worden om bronnen samen te vatten?](#v9)
+* [12] [Kan het gebruik van ChatGPT gedetecteerd worden?](#v12)
+* [13] [Kun je spreken tegen ChatGPT?](#v13)
 * [14] [Bekende problemen & betrouwbaarheid issues](#v14)
 * [15] [Prompt voorbeelden](#v15)
 
@@ -83,6 +84,26 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 </table>
 </div>
 
+<br>
+
+
+# v0
+
+
+*******
+### [0] WAT IS "GENERATIVE KUNSTMATIGE INTELLIGENTIE [Gen-AI]"?
+*******
+
+
+"Kunstmatige intelligentie" (AI) is een multidisciplinair vakgebied gericht op het ontwikkelen van digitale technologie dat menselijke cognitieve, perceptuele en/of motorische vermogens kan automatiseren.
+
+|               | Cognitie                                                                                                                                 | Perceptie                                                                                                                                 | Motorische vermogens                                                                                                                                 |
+|----------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| menselijk vermogen    | Verwerken, begrijpen en onthouden van informatie.                                                                                        | Verzamelen van informatie via sensoren en interpretatie hiervan.                                                                            | Uitvoeren van fysieke acties.                                                                                                                            |
+| Voorbeelden    | Taalverwerking, logisch redeneren, problemen oplossen.                                                                                    | Beeldherkenning, spraakherkenning, objecten lokaliseren.                                                                                        | Besturen van robots, drones vliegen, autonoom rijden.                                                                                                |
+
+
+Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen en/of muziek. 
 
 <br>
 
@@ -96,24 +117,27 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 
-Kunstmatige intelligentie [AI] anno 2023 verwijst naar digitale technologie die intelligent gedrag van mensen kan nadoen en/of overnemen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
+<!--
+Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. 
+LLMs van het van het type
+-->
 
-Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen en/of muziek. 
+ *"Generative Pre-trained Transformers"* [GPTs] zijn anno 2023 de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van op neurale netwerk [NN] architectuur gebaseerde  "machinaal Lerende" [ML] algoritmen. Het zijn automaten die op commando natuurlijke taal verwerken & genereren [NLP]. 
 
-Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. Anno 2023, zijn LLMs van het van het type *"Generative Pre-trained Transformer"* [GPT] de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. GTPs zijn dus natuurlijke taal genererende machines. Praktische toepassingen hiervan zijn het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen. 
 
-ChatGPT is de meest geavanceerde versies van GTP-3 dat publiekelijk toegankelijk is.
-Het is een ontwikkeld door de OpenAI.com in 2022 *---een Microsoft start-up---*.  Deze nieuwe generatie GPT kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het samenvatten van teksten, en het voeren van dialogen. 
+ChatGPT is de meest geavanceerde GPT die publiekelijk toegankelijk is gesteld door OpenAI.com eind 2022. Deze nieuwe generatie GPT kan op commando natuurlijke taal genereren nodig voor (1) het beantwoorden van vragen, (2) het samenvatten van teksten, (3) uitvoeren van gedealieerde insructies, en (4) het voeren van dialogen.
+
+ChatGPT is geoptimaliseerd voor (1) het afleiden van de intentie van de eindgebruiker (2) het tegengaan van ongepast taalgebruik; (3) het reduceren van de kans op het genereren van "verzonnen" feiten; en (4) het genereren van adequate reacties op de input van de eindgebruiker.
 
 |                                    | InstructGPT                                                                              | ChatGPT                                                                              |
 |------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | Design                             | Extension of GPT-3, fine-tuned for interactive tasks such as chatbot applications.        | Extension of GPT-3, fine-tuned for conversational tasks such as chatbot applications.   |
 | Training                           | Trained on conversational data and fine-tuned to understand context and generate appropriate responses.| Trained on conversational data and fine-tuned to understand context and generate appropriate responses.|
-| Goal                              | To understand context of a conversation and generate appropriate responses.               | To understand context of a conversation and generate appropriate responses.               |
-| Interaction with end-user         | Able to handle various types of user inputs, such as questions, statements, and commands.| Able to handle various types of user inputs, such as questions, statements, and commands.|
+| Doel                              | To understand context of a conversation and generate appropriate responses.               | To understand context of a conversation and generate appropriate responses.               |
+| Interactie with end-user         | Able to handle various types of user inputs, such as questions, statements, and commands.| Able to handle various types of user inputs, such as questions, statements, and commands.|
 | Availability                      | Not officially released by OpenAI.                                                      | Not officially released by OpenAI.                                                      |
 
-ChatGPT is een doorontwikkeling van InteractGPT met als doel om GTP-3 te optimaliseren voor (1) het afleiden van de intentie van de eindgebruiker ---het b; (2) (2) het tegengaan van het genereren van beledigend taalgebruik; (3) het reduceren van verzonnen feiten fouten. 
+
 
 
 
@@ -184,7 +208,9 @@ Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het 
 
 * <sub> Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 and Similar Large Language Models. In Minds and Machines (Vol. 32, pp. 341-364). https://doi.org/10.1007/s11023-022-09602-0
 
-* <sub> SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
+* <sub> SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> Retrieved from https://communities.surf.nl/ai-in-education/artikel/ChatGPT-wat-ga-je-voor-ons-doen-in-het-onderwijs
+
+* <sub> Thompson, A. D. (March 2022). What's in my AI? A Comprehensive Analysis of Datasets Used to Train GPT-1, GPT-2, GPT-3, GPT-NeoX-20B, Megatron-11B, MT-NLG, and Gopher. https://lifearchitect.ai/whats-in-my-ai-paper/
 
 </td>
 </tbody>
@@ -197,7 +223,7 @@ Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het 
 
 # v2
 ********
-### [2] HOE GEEF IK EEN OPDRACHT AAN CHATGPT? #link2
+### [2] HOE GEEF IK EEN OPDRACHT AAN ChatGPT? #link2
 
 ********
 
@@ -273,9 +299,9 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 
 <br /> 
 
-# v7
+# v7a
 ********
-### [7] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
+### [7a] KAN  ChatGPT GEBRUIKT WORDEN OM BRONCODE TE SCHRIJVEN?
 ********
 
 | agent | prompt | agent | response |
@@ -302,65 +328,9 @@ print(fullText)
 
 ********
 
-<br /> 
-
-# v8
+# v7b
 ********
-### [8] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN VOLGENS APA-stijl?
-********
-
-| agent | prompt | agent | response |
------ | ----- | ----- | ----- |
-| Human | Kun je mij drie bronnen vermelden met als topic "Deep Learning" in APA-stijl <br> + DOI die het meest geciteerd zijn tot 2019?| ChatGPT | Ik kan u drie bronnen geven die tot 2019 vaak geciteerd zijn en die betrekking hebben op "Deep Learning" in APA-stijl.|
-| Human | Kun je ook aangeven hoe vaak ze zijn geciteerd?? | ChatGPT | Ik kan geen precieze citaatcijfers geven voor deze specifieke bronnen, omdat de citaatcijfers kunnen variëren afhankelijk van de bron van de citaatcijfers. <br> <br> Houd er rekening mee dat het citaatcijfer van een artikel kan veranderen in de tijd, afhankelijk van de hoeveelheid onderzoek die wordt gepubliceerd in de toekomst. Als alternatief kunt u de citaatcijfers voor deze artikelen controleren op websites zoals Google Scholar.|
-| Human | Hoe vaak zijn ze geciteerd volgens Google Scholar? | ChatGPT | Hier zijn drie bronnen over Deep Learning die tot en met 2019 gepubliceerd zijn en vaak geciteerd zijn volgens Google Scholar (op 2021-09-01):.|
-
-
-```
-[1] LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444. 
-    DOI: 10.1038/nature14539
-    Citaties: 52,106
-
-    Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken van
-    de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation, 
-    regulering, convolutionele netwerken en recurrente netwerken.
-
-[2] Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. 
-    DOI: 10.1016/j.neunet.2014.09.003
-    Citaties: 3,657
-
-    Dit artikel geeft een overzicht van de geschiedenis van Deep Learning en de huidige trends in de ontwikkeling
-    van diepe neurale netwerken. Het bespreekt ook de verschillende soorten diepe neurale netwerken
-    die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.
-
-[3] Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning (pp. 1-7). MIT Press. 
-    DOI: 10.7551/mitpress/9780262035613.003.0001
-    Citaties: 12,843
-
-    Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken
-    van de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation 
-    regulering, convolutionele netwerken en recurrente netwerken.
-
-```
-
-
-
-<br /> 
-
-# v9
-********
-### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
-********
-
-| agent | prompt | agent | response |
------ | ----- | ----- | ----- |
-| Human | Kun je een synthese geven waarin de overeenkomst wordt beschreven van de bovenstaande 3 bronnen in minder dan 500 woorden? | ChatGPT | De drie bronnen die ik eerder genoemd heb, beschrijven allemaal Deep Learning als een subveld van kunstmatige intelligentie dat zich richt op het ontwikkelen van diepe neurale netwerken. Ze beschrijven hoe Deep Learning in staat is om complexe patronen in grote hoeveelheden data te herkennen en te generaliseren, en hoe het een groeiende belangstelling heeft gekregen in de afgelopen jaren.<br> <br> De bronnen bespreken ook hoe Deep Learning wordt toegepast in diverse gebieden zoals beeldherkenning, spraakherkenning, natuurlijke taalverwerking en andere. Ze benadrukken dat deep learning methoden vaak een betere prestatie geven dan traditionele methoden van machine learning.<br> <br> Ze beschrijven ook de belangrijkste uitdagingen die nog moeten worden overwonnen zoals regulering, interpretabiliteit, en generalisatie.<br> <br>  Al de bronnen bespreken de verschillende soorten diepe neurale netwerken die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.<br> <br>  Al met al, de drie bronnen geven een uitgebreide introductie tot Deep Learning, met nadruk op de principes en technieken van diepe neurale netwerken, de toepassingsgebieden waar het meest effectief is en de uitdagingen die nog moeten worden overwonnen. |
-
-<br /> 
-
-# v10
-********
-### [10] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
+### [7b] KAN  ChatGPT GEBRUIKT WORDEN OM EEN LESSEN REEKS TE BEDENKEN
 ********
 
 | agent | prompt | agent | response |
@@ -460,12 +430,11 @@ print('Test accuracy:', test_acc)
 
 Let op: deze code is een voorbeeld en is niet direct uitvoerbaar. Variabelen zoals X_train, y_train, X_val, y_val, X_test, y_test moeten eerst worden gedefinieerd en de juiste libraries geïmporteerd.
 
-
 <br /> 
 
-# v11
+# v7c
 ********
-### [11] KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?
+### [7c] KAN  ChatGPT GEBRUIKT WORDEN OM CODE UIT TE LEGGEN?
 ********
 
 | agent | prompt | agent | response |
@@ -546,6 +515,64 @@ De DataFrame zou dus alleen de bestanden bevatten die eindigen op ".docx", en zo
 
 <br /> 
 
+
+<br /> 
+
+# v8
+********
+### [8] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN TE VERMELDEN VOLGENS APA-stijl?
+********
+
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je mij drie bronnen vermelden met als topic "Deep Learning" in APA-stijl <br> + DOI die het meest geciteerd zijn tot 2019?| ChatGPT | Ik kan u drie bronnen geven die tot 2019 vaak geciteerd zijn en die betrekking hebben op "Deep Learning" in APA-stijl.|
+| Human | Kun je ook aangeven hoe vaak ze zijn geciteerd?? | ChatGPT | Ik kan geen precieze citaatcijfers geven voor deze specifieke bronnen, omdat de citaatcijfers kunnen variëren afhankelijk van de bron van de citaatcijfers. <br> <br> Houd er rekening mee dat het citaatcijfer van een artikel kan veranderen in de tijd, afhankelijk van de hoeveelheid onderzoek die wordt gepubliceerd in de toekomst. Als alternatief kunt u de citaatcijfers voor deze artikelen controleren op websites zoals Google Scholar.|
+| Human | Hoe vaak zijn ze geciteerd volgens Google Scholar? | ChatGPT | Hier zijn drie bronnen over Deep Learning die tot en met 2019 gepubliceerd zijn en vaak geciteerd zijn volgens Google Scholar (op 2021-09-01):.|
+
+
+```
+[1] LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436-444. 
+    DOI: 10.1038/nature14539
+    Citaties: 52,106
+
+    Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken van
+    de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation, 
+    regulering, convolutionele netwerken en recurrente netwerken.
+
+[2] Schmidhuber, J. (2015). Deep learning in neural networks: An overview. Neural Networks, 61, 85-117. 
+    DOI: 10.1016/j.neunet.2014.09.003
+    Citaties: 3,657
+
+    Dit artikel geeft een overzicht van de geschiedenis van Deep Learning en de huidige trends in de ontwikkeling
+    van diepe neurale netwerken. Het bespreekt ook de verschillende soorten diepe neurale netwerken
+    die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.
+
+[3] Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning (pp. 1-7). MIT Press. 
+    DOI: 10.7551/mitpress/9780262035613.003.0001
+    Citaties: 12,843
+
+    Dit boek is een uitgebreide introductie tot Deep Learning, met een nadruk op de principes en technieken
+    van de diepe neurale netwerken. Het behandelt onderwerpen zoals perceptron-modellen, backpropagation 
+    regulering, convolutionele netwerken en recurrente netwerken.
+
+```
+
+
+
+<br /> 
+
+# v9
+********
+### [9] KAN  ChatGPT GEBRUIKT WORDEN OM BRONNEN SAMEN TE VATTEN?
+********
+
+| agent | prompt | agent | response |
+----- | ----- | ----- | ----- |
+| Human | Kun je een synthese geven waarin de overeenkomst wordt beschreven van de bovenstaande 3 bronnen in minder dan 500 woorden? | ChatGPT | De drie bronnen die ik eerder genoemd heb, beschrijven allemaal Deep Learning als een subveld van kunstmatige intelligentie dat zich richt op het ontwikkelen van diepe neurale netwerken. Ze beschrijven hoe Deep Learning in staat is om complexe patronen in grote hoeveelheden data te herkennen en te generaliseren, en hoe het een groeiende belangstelling heeft gekregen in de afgelopen jaren.<br> <br> De bronnen bespreken ook hoe Deep Learning wordt toegepast in diverse gebieden zoals beeldherkenning, spraakherkenning, natuurlijke taalverwerking en andere. Ze benadrukken dat deep learning methoden vaak een betere prestatie geven dan traditionele methoden van machine learning.<br> <br> Ze beschrijven ook de belangrijkste uitdagingen die nog moeten worden overwonnen zoals regulering, interpretabiliteit, en generalisatie.<br> <br>  Al de bronnen bespreken de verschillende soorten diepe neurale netwerken die zijn ontwikkeld, zoals feedforward-netwerken, convolutionele netwerken en recurrente netwerken.<br> <br>  Al met al, de drie bronnen geven een uitgebreide introductie tot Deep Learning, met nadruk op de principes en technieken van diepe neurale netwerken, de toepassingsgebieden waar het meest effectief is en de uitdagingen die nog moeten worden overwonnen. |
+
+<br /> 
+
+
 # v12
 ********
 ### [12] KAN HET GEBRUIK VAN ChatGPT GEDETECTEERD WORDEN?
@@ -559,7 +586,7 @@ https://openai-openai-detector.hf.space/
 ********
 ### [13] KUN JE SPREKEN TEGEN ChatGPT?
 
-https://github.com/platelminto/chatgpt-conversation
+https://github.com/platelminto/ChatGPT-conversation
 ********
 
 <br /> 
@@ -568,7 +595,7 @@ https://github.com/platelminto/chatgpt-conversation
 ********
 ### [14] BEKENDE PROBLEMEN & BETROUWBAARHEID ISSUES
 ********
-Dit is een aangepaste versie van [5 Big Problems With OpenAI's ChatGPT](https://www.makeuseof.com/openai-chatgpt-biggest-probelms/)
+Dit is een aangepaste versie van [5 Big Problems With OpenAI's ChatGPT](https://www.makeuseof.com/openai-ChatGPT-biggest-probelms/)
 door Garling Wu op 22 december 2020
 
 
@@ -592,7 +619,7 @@ Het faalt in [elementaire wiskunde](#v6), het beantwoorden van eenvoudige logica
 ********
 ### [15] PROMPT VOORBEELDEN
 ********
-De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-chatgpt-prompts
+De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-ChatGPT-prompts
 
 
 #### Voorbeeld 01: Linux Terminal
