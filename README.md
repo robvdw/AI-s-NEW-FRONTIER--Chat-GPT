@@ -115,35 +115,20 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 ### [1] HOE LEREN COMPUTERS EEN GESPREK VOEREN?
 *******
 
-
-
 <!--
 Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. 
 LLMs van het van het type
 -->
 
- *"Generative Pre-trained Transformers"* [GPTs] zijn anno 2023 de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van op neurale netwerk [NN] architectuur gebaseerde  "machinaal Lerende" [ML] algoritmen. Het zijn automaten die op commando natuurlijke taal verwerken & genereren [NLP]. 
+ *"Generative Pre-trained Transformers"* [GPTs] zijn anno 2023 de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van op neurale netwerk [NN] architectuur gebaseerde  "machinaal Lerende" [ML] algoritmen. Het zijn automaten die natuurlijke taal kunnen verwerken & genereren [NLP]. 
 
-
-ChatGPT is de meest geavanceerde GPT die publiekelijk toegankelijk is gesteld door OpenAI.com eind 2022. Deze nieuwe generatie GPT kan op commando natuurlijke taal genereren nodig voor (1) het beantwoorden van vragen, (2) het samenvatten van teksten, (3) uitvoeren van gedealieerde insructies, en (4) het voeren van dialogen.
+ChatGPT is de meest geavanceerde GPT die publiekelijk toegankelijk is gesteld door OpenAI.com eind 2022. Deze nieuwe generatie GPT kan op commando natuurlijke taal genereren nodig voor (1) het inhoudelijk beantwoorden van vragen, (2) het samenvatten van teksten, (3) uitvoeren van gedetaileerde instructies, en (4) het voeren van dialogen.
 
 ChatGPT is geoptimaliseerd voor (1) het afleiden van de intentie van de eindgebruiker (2) het tegengaan van ongepast taalgebruik; (3) het reduceren van de kans op het genereren van "verzonnen" feiten; en (4) het genereren van adequate reacties op de input van de eindgebruiker.
 
-|                                    | InstructGPT                                                                              | ChatGPT                                                                              |
-|------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| Design                             | Extension of GPT-3, fine-tuned for interactive tasks such as chatbot applications.        | Extension of GPT-3, fine-tuned for conversational tasks such as chatbot applications.   |
-| Training                           | Trained on conversational data and fine-tuned to understand context and generate appropriate responses.| Trained on conversational data and fine-tuned to understand context and generate appropriate responses.|
-| Doel                              | To understand context of a conversation and generate appropriate responses.               | To understand context of a conversation and generate appropriate responses.               |
-| Interactie with end-user         | Able to handle various types of user inputs, such as questions, statements, and commands.| Able to handle various types of user inputs, such as questions, statements, and commands.|
-| Availability                      | Not officially released by OpenAI.                                                      | Not officially released by OpenAI.                                                      |
-
-
-
-
-
 ChatGPT's gebruikersinterface is gespecialiseerd in het uitvoeren van door mensen ingevoerde tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is GPT-3.5 aangepast op basis van menselijk toezicht. Vandaar de naam ChatGPT. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback,.
+Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is ChatGPT aangepast op basis van menselijk toezicht. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback in de vorm van natuurlijke taal.
 
  <br>
 
@@ -181,8 +166,7 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 
 Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft een helpdeskmedewerker met kennis van zaken.
 
-Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende GPT taalmodel. 
-Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
+Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende GPT taalmodel. Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt wat deze Gen-AI aan natuurlijke taal heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan *feitelijk  juiste* informatie heeft opgeslagen.
 <br><br>
 
 <div align="left">
