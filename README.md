@@ -94,16 +94,28 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 ### [1] HOE LEREN COMPUTERS EEN GESPREK VOEREN?
 *******
 
+
+
 Kunstmatige intelligentie [AI] anno 2023 verwijst naar digitale technologie die intelligent gedrag van mensen kan nadoen en/of overnemen. Dit omvat breed scala aan technologieën zoals, algoritmen die gegevens kunnen sorteren, tot meer geavanceerde systemen die mensachtige denkprocessen kunnen nabootsen.
 
-Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technolgie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen en/of muziek. 
+Generatieve AI [Gen-AI] is een vorm van *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen en/of muziek. 
 
-Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. Anno 2023, zijn LLMs van het van het type *"Generative Pre-trained Transformer"* [GPT] de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. Voorbeelden hiervan zijn  het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen. GTPs zijn dus natuurlijke taal genererende machines.
+Deze op neuraal netwerk-gebaseerde grootschalige taalmodellen [LLM] zijn gevoed met enorm grote datasets. Anno 2023, zijn LLMs van het van het type *"Generative Pre-trained Transformer"* [GPT] de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van  "machinaal lerende" [ML] algoritmen om zo op commando *"nieuwe"* inhoud te kunnen te genereren. GTPs zijn dus natuurlijke taal genererende machines. Praktische toepassingen hiervan zijn het automatisch genereren van tekst door chatbots of nieuws berichten door persagentschappen. 
 
-ChatGPT is de meest geavanceerde GTP dat publiekelijk toegankelijk is.
-Het is ontwikkeld door de OpenAI.com in 2022 *---een Microsoft start-up---*  op basis van InstructGPT.  Deze nieuwe generatie GPT kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het samenvatten van teksten, en het voeren van dialogen. 
+ChatGPT is de meest geavanceerde versies van GTP-3 dat publiekelijk toegankelijk is.
+Het is een ontwikkeld door de OpenAI.com in 2022 *---een Microsoft start-up---*.  Deze nieuwe generatie GPT kan teksten genereren voor een breed scala aan natuurlijke taalverwerkingstaken [NLP], zoals het beantwoorden van vragen, het samenvatten van teksten, en het voeren van dialogen. 
 
-InstructGPT is ontwikkeld met als doel om op GTP-2 gebaseerde natuurlijke taal genererende machines te optimaliseren op basis van (1) de intentie van de gebruiker; (2) het verhinderen van beledigend taalgebruik; (3) het reduceren verzonnen feiten fouten. 
+|                                    | InstructGPT                                                                              | ChatGPT                                                                              |
+|------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| Design                             | Extension of GPT-3, fine-tuned for interactive tasks such as chatbot applications.        | Extension of GPT-3, fine-tuned for conversational tasks such as chatbot applications.   |
+| Training                           | Trained on conversational data and fine-tuned to understand context and generate appropriate responses.| Trained on conversational data and fine-tuned to understand context and generate appropriate responses.|
+| Goal                              | To understand context of a conversation and generate appropriate responses.               | To understand context of a conversation and generate appropriate responses.               |
+| Interaction with end-user         | Able to handle various types of user inputs, such as questions, statements, and commands.| Able to handle various types of user inputs, such as questions, statements, and commands.|
+| Availability                      | Not officially released by OpenAI.                                                      | Not officially released by OpenAI.                                                      |
+
+ChatGPT is een doorontwikkeling van InteractGPT met als doel om GTP-3 te optimaliseren voor (1) het afleiden van de intentie van de eindgebruiker ---het b; (2) (2) het tegengaan van het genereren van beledigend taalgebruik; (3) het reduceren van verzonnen feiten fouten. 
+
+
 
 ChatGPT's gebruikersinterface is gespecialiseerd in het uitvoeren van door mensen ingevoerde tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
@@ -143,12 +155,9 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
 
-Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft  en helpdeskmedewerker met kennis van zaken.
+Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft een helpdeskmedewerker met kennis van zaken.
 
-Dit is revolutionare stap voor de interactie van eindgebruikers met computers om informatie op te sporen. 
-Het uitvoeren van zoekopdrachten via populaire zoekmachines zoals Baidu, Bing, DuckDuckGo, Goolge, YaHoo! en YouTube is veel omslacjhtiger omdat de uitkomst verwijzing is naar een reeks relevante webpagina's, maar een antwoord zoals een mens dat zou geven.
-
-Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het taalmodel. 
+Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende GPT taalmodel. 
 Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het taalmodel *[GTP3.5]* aan informatie heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het taalmodel aan *feitelijk  juiste* informatie heeft opgeslagen.
 <br><br>
 
@@ -159,19 +168,23 @@ Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt van wat het 
 
 ### Geraadpleegde bronnen: 
 
-* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155
+* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
+
+* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
+
+* <sub> Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., & Prather, J. (2022). The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming. In ACE '22: Australasian Computing Education Conference (pp. 10-19). https://doi.org/10.1145/3511861.3511863
+
+* <sub> Forsyth, O. (2022, december 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
 
 * <sub> Openai.com (2022, januari 27). Instruction Following [Blog]. https://openai.com/blog/instruction-following/
 
 * <sub> Openai.com (2022, januari 27). Following-instructions-human-feedback [Code repository]. https://github.com/openai/following-instructions-human-feedback.
 
+* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155
+
+* <sub> Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 and Similar Large Language Models. In Minds and Machines (Vol. 32, pp. 341-364). https://doi.org/10.1007/s11023-022-09602-0
+
 * <sub> SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> Retrieved from https://communities.surf.nl/ai-in-education/artikel/chatgpt-wat-ga-je-voor-ons-doen-in-het-onderwijs
-
-* <sub> Forsyth, O. (2022, december 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
-
-* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
-
-* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
 
 </td>
 </tbody>
