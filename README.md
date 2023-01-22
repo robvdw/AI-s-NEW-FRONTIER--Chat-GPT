@@ -63,7 +63,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <br>
 
 * [0] [Wat is generateve AI?](#v0)
-* [1] [Is ChatGPT Betrouwbaar?](#v1)
+* [1] [Wat moet ik weten over ChatGPT en is het betrouwbaar?](#v1)
 * [2] [Hoe geef ik een opdracht aan ChatGPT?](#v2)
 * [3] [Kan ChatGPT uitleggen hoe het werkt?](#v3)
 * [4] [Kan ChatGPT uitleggen hoe het te gebruiken?](#v4)
@@ -112,7 +112,7 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 
 
 *******
-### [1] Is ChatGPT BETROUWBAAR?
+### [1] WAT MOET IK WETEN OVER CHATGPT EN IS HET BETROUWBAAR?
 *******
 
 <!--
