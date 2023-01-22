@@ -112,7 +112,7 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 
 
 *******
-### [1] WAT MOET IK WETEN OVER CHATGPT EN IS HET BETROUWBAAR?
+### [1] WAT MOET IK WETEN OVER ChatGPT EN IS HET BETROUWBAAR?
 *******
 
 <!--
@@ -164,7 +164,7 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
 
-Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan die eindgebruikers de indruk geeft een helpdeskmedewerker met kennis van zaken.
+Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan die eindgebruikers de indruk geeft te praten met een helpdeskmedewerker met kennis van zaken.
 
 Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende taalmodel. Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt wat deze Gen-AI aan natuurlijke taal voorbeelden heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan *feitelijk  juiste* informatie heeft opgeslagen.
 
