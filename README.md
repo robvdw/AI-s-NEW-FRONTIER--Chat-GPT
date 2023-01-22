@@ -62,8 +62,8 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <td align="left">
 <br>
 
-* [0] [Basis Begrippen](#v0)
-* [1] [Hoe leren computers een gesprek voeren?](#v1)
+* [0] [Wat is generateve AI?](#v0)
+* [1] [Is ChatGPT Betrouwbaar?](#v1)
 * [2] [Hoe geef ik een opdracht aan ChatGPT?](#v2)
 * [3] [Kan ChatGPT uitleggen hoe het werkt?](#v3)
 * [4] [Kan ChatGPT uitleggen hoe het te gebruiken?](#v4)
@@ -91,7 +91,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 *******
-### [0] WAT IS "GENERATIVE KUNSTMATIGE INTELLIGENTIE [Gen-AI]"?
+### [0] WAT IS *"GENERATIVE KUNSTMATIGE INTELLIGENTIE [Gen-AI]"*?
 *******
 
 
@@ -112,7 +112,7 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 
 
 *******
-### [1] HOE LEREN COMPUTERS EEN GESPREK VOEREN?
+### [1] Is ChatGPT BETROUWBAAR?
 *******
 
 <!--
@@ -164,9 +164,12 @@ Voorbeeld03 : hoe het dient reageren op een prompt
 ```
 <br>
 
-Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan dat eindgebruikers de indruk geeft een helpdeskmedewerker met kennis van zaken.
+Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan die eindgebruikers de indruk geeft een helpdeskmedewerker met kennis van zaken.
 
-Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende GPT taalmodel. Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt wat deze Gen-AI aan natuurlijke taal heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan *feitelijk  juiste* informatie heeft opgeslagen.
+Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende taalmodel. Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt wat deze Gen-AI aan natuurlijke taal voorbeelden heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan *feitelijk  juiste* informatie heeft opgeslagen.
+
+Hierdoor is ChatGPT extreem gevoelig voor aanpassingen aan de invoerfrasering of het meerdere keren proberen van dezelfde prompt. Bij één formulering van een vraag kan het model bijvoorbeeld beweren het antwoord niet te weten, maar bij een kleine herformulering correct antwoorden.
+
 <br><br>
 
 <div align="left">
