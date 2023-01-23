@@ -63,8 +63,9 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <br>
 
 * [0] [Wat is generateve AI?](#v0)
-* [1] [Wat moet ik weten over ChatGPT en is het betrouwbaar?](#v1)
-* [2] [Hoe geef ik een opdracht aan ChatGPT?](#v2)
+* [1a] [Wat moet je weten over ChatGPT ](#v1a)
+* [1b] [Hoe  ?](#v1b)
+* [2] [Hoe geef je een opdracht aan ChatGPT?](#v2)
 * [3] [Kan ChatGPT uitleggen hoe het werkt?](#v3)
 * [4] [Kan ChatGPT uitleggen hoe het te gebruiken?](#v4)
 * [5] [Heeft ChatGPT taalbegrip?](#v5)
@@ -108,11 +109,11 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 <br>
 
 
-# v1
+# v1a
 
 
 *******
-### [1] WAT MOET IK WETEN OVER ChatGPT EN IS HET BETROUWBAAR?
+### [1a] WAT MOET IK WETEN OVER ChatGPT?
 *******
 
 <!--
@@ -128,7 +129,7 @@ ChatGPT is geoptimaliseerd voor (1) het afleiden van de intentie van de eindgebr
 
 ChatGPT's gebruikersinterface is gespecialiseerd in het uitvoeren van door mensen ingevoerde tekstuele instructies. Dit heet *"prompting"* of *"priming"* in het Engelse taaldomein. 
 
-Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is ChatGPT aangepast op basis van menselijk toezicht. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback in de vorm van natuurlijke taal.
+Om deze *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is ChatGPT aangepast op basis van menselijk toezicht. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Deze methodiek van *"belonend leren onder toezicht"*  [RLHF] is een van de meest toegepaste AI-algoritme voor het trainen van robots. Belonend leren onder toezicht is in dit geval een methodiek die aanstuurt op het belonen *--reinforcing--* van goed gedrag op basis van *"menselijke"*  feedback in de vorm van natuurlijke taal.
 
  <br>
 
@@ -161,14 +162,42 @@ Voorbeeld02 : Een paard is een viervoetig zoogdier ...
 Voorbeeld03 : Het door de mens vervaardigde antwoord
 Voorbeeld03 : fungeert als instructief voorbeeld  voor het model
 Voorbeeld03 : hoe het dient reageren op een prompt
+
 ```
+
 <br>
+
 
 Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan die eindgebruikers de indruk geeft te praten met een helpdeskmedewerker met kennis van zaken.
 
-Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende taalmodel. Dit komt doordat de ideale reactie van ChatGPT *niet* bepaald wordt wat deze Gen-AI aan natuurlijke taal voorbeelden heeft opgeslagen, maar van wat de menselijke demonstrator weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan *feitelijk  juiste* informatie heeft opgeslagen.
+Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor de benutting van het onderliggende taalmodel. Dit komt doordat de ideale reactie van ChatGPT niet bepaald wordt wat deze Gen-AI aan natuurlijke taal voorbeelden heeft opgeslagen, maar van wat de menselijke demonstrateur weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan feitelijk juiste informatie heeft opgeslagen.
 
-Hierdoor is ChatGPT extreem gevoelig voor aanpassingen aan de invoerfrasering of het meerdere keren proberen van dezelfde prompt. Bij één formulering van een vraag kan het model bijvoorbeeld beweren het antwoord niet te weten, maar bij een kleine herformulering correct antwoorden.
+
+
+
+# v1b
+
+
+*******
+### [1b]  HOE KAN ChatGPT?
+*******
+
+
+ChatGPT is extreem gevoelig voor de wijze waarop een vraag geformuleerd wordt. Dit kan leiden tot het negeren van bepaalde aanwijzingen in de opdracht. Bij één formulering van een vraag kan het beweren niet over de gevraagde informatie te beschikken, maar bij een kleine herformulering correct antwoorden.
+
+
+Niet altijd juist. Er zijn vragen waarop ChatGPT zeer uitvoerige en gemotiveerde antwoorden geeft, ook al zijn ze onjuist. Je moet er niet blindelings op vertrouwen dat hij de waarheid spreekt, zelfs als hij van plan is het beste antwoord te voorspellen, want hij weet niet altijd de waarheid.
+
+
+
+| Beperking | Oplossing |
+|-----------|-----------|
+| Incorrecte reactie | Controleer altijd de antwoorden van ChatGPT met andere bronnen. Beperk de vraag tot een specifiek onderwerp. Geef ChatGPT specifieke informatie over het onderwerp. Gebruik ChatGPT als hulpmiddel bij het formuleren van eigen ideeën. |
+| Gevoeligheid voor woordkeuze | Probeer verschillende manieren om een ​​vraag te stellen. Let op de juiste woordkeuze of uitdrrukking tijdens de invoer. |
+| Lang van stof | Overdreven uitgebreide antwoorden en herhaling zoals "ik ben een taalmodel is dat is getraind door OpenAI" komt vaak voor.  Dit komt doordat menselijke trainers de voorkeur gevenn aan langere antwoorden die er uitgebreider uitzien) en bekende problemen met overoptimalisatie.
+| Gebrek aan context | Wanneer de gebruiker een dubbelzinnige opdracht formuleert, zou ChatGPT de gebruiker moeten vragen om de context te verduidelijken. In plaats daarvan raden onze huidige modellen meestal wat de gebruiker bedoelde. In plaats daarvan raden onze huidige modellen meestal wat de gebruiker bedoelde.ChatGPT zou ideaal gezien verduidelijkende vragen stellen wanneer de invoer onduidelijk is, maar in plaats daarvan raadt het vaak de bedoeling aan. |
+| Ongwenste antwoorden | ChatGPT zal doorgaans ongepaste verzoeken  weigeren. De Moderation API zal ongepaste verzoeken negeren of waarschuwen: <br> <sub> *"This content may violate our content policy. If you believe this to be in error, please submit your feedback — your input will aid our research in this area."*|
+
 
 <br><br>
 
@@ -179,26 +208,31 @@ Hierdoor is ChatGPT extreem gevoelig voor aanpassingen aan de invoerfrasering of
 
 ### Geraadpleegde bronnen: 
 
-* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
+* <sub> van Breda, N. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> https://communities.surf.nl/ai-in-education/artikel/ChatGPT-wat-ga-je-voor-ons-doen-in-het-onderwijs
 
-* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
+* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
 
 * <sub> Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., & Prather, J. (2022). The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming. In ACE '22: Australasian Computing Education Conference (pp. 10-19). https://doi.org/10.1145/3511861.3511863
 
 * <sub> Forsyth, O. (2022, december 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
 
+* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
+
+* <sub> Ngo, R. (2022). The alignment problem from a deep learning perspective. arXiv preprint. https://doi.org/10.48550/arXiv.2209.00626
+
 * <sub> Openai.com (2022, januari 27). Instruction Following [Blog]. https://openai.com/blog/instruction-following/
 
 * <sub> Openai.com (2022, januari 27). Following-instructions-human-feedback [Code repository]. https://github.com/openai/following-instructions-human-feedback.
 
-* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv. https://doi.org/10.48550/arXiv.2203.02155
+* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv preprint. https://doi.org/10.48550/arXiv.2203.02155
+
+* <sub> Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal policy optimization algorithms. arXiv preprint. https://doi.org/10.48550/arXiv.1707.06347
 
 * <sub> Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 and Similar Large Language Models. In Minds and Machines (Vol. 32, pp. 341-364). https://doi.org/10.1007/s11023-022-09602-0
 
-* <sub> SURF-Communities: AI in Education. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> Retrieved from https://communities.surf.nl/ai-in-education/artikel/ChatGPT-wat-ga-je-voor-ons-doen-in-het-onderwijs
-
 * <sub> Thompson, A. D. (March 2022). What's in my AI? A Comprehensive Analysis of Datasets Used to Train GPT-1, GPT-2, GPT-3, GPT-NeoX-20B, Megatron-11B, MT-NLG, and Gopher. https://lifearchitect.ai/whats-in-my-ai-paper/
 
+* <sub> Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. In 31st Conference on Advances in Neural Information Processing Systems (NIPS). https://doi.org/10.48550/arXiv.1706.03762 
 </td>
 </tbody>
 </table>
