@@ -64,7 +64,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 * [0] [Wat is generateve AI?](#v0)
 * [1a] [Wat moet je weten over ChatGPT ](#v1a)
-* [1b] [Hoe  ?](#v1b)
+* [1b] [Wat zijn de beperkingen van ChatGPT?](#v1b)
 * [2] [Hoe geef je een opdracht aan ChatGPT?](#v2)
 * [3] [Kan ChatGPT uitleggen hoe het werkt?](#v3)
 * [4] [Kan ChatGPT uitleggen hoe het te gebruiken?](#v4)
@@ -179,22 +179,18 @@ Een probleem is dat "belonend leren onder toezicht" nadelige effecten heeft voor
 
 
 *******
-### [1b]  HOE KAN ChatGPT?
+### [1b]  WAT ZIJN DE BEPERKINGEN VAN ChatGPT?
 *******
 
 
 ChatGPT is extreem gevoelig voor de wijze waarop een vraag geformuleerd wordt. Dit kan leiden tot het negeren van bepaalde aanwijzingen in de opdracht. Bij één formulering van een vraag kan het beweren niet over de gevraagde informatie te beschikken, maar bij een kleine herformulering correct antwoorden.
 
 
-Niet altijd juist. Er zijn vragen waarop ChatGPT zeer uitvoerige en gemotiveerde antwoorden geeft, ook al zijn ze onjuist. Je moet er niet blindelings op vertrouwen dat hij de waarheid spreekt, zelfs als hij van plan is het beste antwoord te voorspellen, want hij weet niet altijd de waarheid.
-
-
-
-| Beperking | Oplossing |
-|-----------|-----------|
-| Incorrecte reactie | Controleer altijd de antwoorden van ChatGPT met andere bronnen. Beperk de vraag tot een specifiek onderwerp. Geef ChatGPT specifieke informatie over het onderwerp. Gebruik ChatGPT als hulpmiddel bij het formuleren van eigen ideeën. |
-| Gevoeligheid voor woordkeuze | Probeer verschillende manieren om een ​​vraag te stellen. Let op de juiste woordkeuze of uitdrrukking tijdens de invoer. |
-| Lang van stof | Overdreven uitgebreide antwoorden en herhaling zoals "ik ben een taalmodel is dat is getraind door OpenAI" komt vaak voor.  Dit komt doordat menselijke trainers de voorkeur gevenn aan langere antwoorden die er uitgebreider uitzien) en bekende problemen met overoptimalisatie.
+| Bekende Problemen | Oorzaak  | Oplossing |
+|-----------|---------|---------|
+| onjuiste of onzinnige antwoorden | In tegenstelling tot spraakgestuurde persoonlijke assistenten zoals Siri of Alexa, maakt ChatGPT geen gebruik van  het world-wide-web om antwoorden te formuleren. <br> <br> ChatGPT  genereerd een antwoord, woord voor woord op basis van waarschijnlijkheden afgeleid van de geleerde natuurlijke taal voorbeelden.  | Controleer altijd de antwoorden van ChatGPT met andere bronnen. Beperk de vraag tot een specifiek onderwerp. Geef ChatGPT specifieke informatie over het onderwerp. Gebruik ChatGPT als hulpmiddel bij het formuleren van eigen ideeën. |
+| Gevoeligheid voor woordkeuze | De context waarin een opdracht wordt gegeven vormt het uitgangspunt voor ChatGPT om de intentie van de gebruiker af te leiden om zo een antwoord te genereren. Wanneer de context veranderd wordt *---door bijvoorbeeld de opdracht een aantal keren te herhalen---* heeft dit een herinterprtatie van de intentie tot gevolg  zodat een ander antwoord wordt gegeven. <br> <br>  Welke geleerd voorbeeld als uitgangspunt dient om een antwoord te genereren wordt bepaald door een willekeurig samplingproces. De willekeur van dit proces kan resulteren in verschillende antwoorden voor dezelfde vraag.| Probeer verschillende manieren om een ​​vraag te stellen. Let op de juiste woordkeuze of uitdrrukking tijdens de invoer. Hiermee binvloed je de context waarin de vraag wordt geformuleerd.
+| Lang van stof | Overdreven uitgebreide antwoorden en herhaling zoals "ik ben een taalmodel is dat is getraind op een grote dataser ...." komt vaak voor. Om *"Chat-achtige"* interactie met eindgebruikers mogelijk te maken is ChatGPT aangepast op basis van menselijk toezicht. Dat wil zeggen,  het heeft opdrachten *leren* uit te voeren aan de hand van van  menselijke feedback. Nadeel is dat menselijke trainers de voorkeur geven aan uitgebreide antwoorden en vaak terug vallen op vaste formuleringen. | <sub> (1) Beperk de vraag: Maak de vraag zo specifiek mogelijk en beperk het tot een enkel onderwerp. Dit helpt ChatGPT om gericht te zoeken naar een antwoord en te voorkomen dat het irrelevant informatie geeft. (2) Gebruik commando's: Gebruik commando's zoals "geef me de samenvatting van" of "geef me de kernpunten van" om ChatGPT aan te geven dat je een kort en bondig antwoord verwacht. (3) Gebruik de settings van de API: Sommige API's hebben instellingen die kunnen worden aangepast om de lengte van het antwoord te beperken.(4) Gebruik de output van het model als een referentie: Gebruik de output van ChatGPT als referentie voor het formuleren van eigen ideeën en maak hieruit een kort en bondig antwoord. (5)Gebruik de Moderation API : Gebruik de Moderation API om bepaalde soorten onveilige inhoud te blokkeren. Verzamel feedback van gebruikers om het systeem te verbeteren.(6) Controleer de output: Controleer de output van ChatGPT en verwijder eventuele irrelevante informatie voor een bondig antwoord. |
 | Gebrek aan context | Wanneer de gebruiker een dubbelzinnige opdracht formuleert, zou ChatGPT de gebruiker moeten vragen om de context te verduidelijken. In plaats daarvan raden onze huidige modellen meestal wat de gebruiker bedoelde. In plaats daarvan raden onze huidige modellen meestal wat de gebruiker bedoelde.ChatGPT zou ideaal gezien verduidelijkende vragen stellen wanneer de invoer onduidelijk is, maar in plaats daarvan raadt het vaak de bedoeling aan. |
 | Ongwenste antwoorden | ChatGPT zal doorgaans ongepaste verzoeken  weigeren. De Moderation API zal ongepaste verzoeken negeren of waarschuwen: <br> <sub> *"This content may violate our content policy. If you believe this to be in error, please submit your feedback — your input will aid our research in this area."*|
 
@@ -270,7 +266,7 @@ De eindgebruiker krijgt zo de indruk dat het AI-model vragen beantwoordt en/of o
 | agent | prompt | agent | response |
 ----- | ----- | ----- | ----- |
 | Human | Ben jij een voorbeeld van een generatief taalmodel AI? | ChatGPT |Ja, ik ben in staat om nieuwe tekst te genereren door het analyseren en leren van grote hoeveelheden aan tekst. |
-| Human | Maar alle antwoorden die je geeft zijn toch gebaseerd op voorbeelden uit een dialoog dataset + labelling + ranking door mensen? | ChatGPT | De antwoorden die ik geef zijn gebaseerd op de informatie die ik geleerd heb uit deze dataset en de manier waarop ik deze informatie interpreteer. <br>  <br> In sommige gevallen kan ik specifieke informatie uit de dataset gebruiken om te antwoorden op een vraag, in andere gevallen kan ik een combinatie van informatie gebruiken die ik geleerd heb om antwoord te geven. <br>  <br> Ook is het zo dat mijn antwoorden door mensen worden geëvalueerd en gerankt, en zo kan ik bijgestuurd worden of bijgeleerd. |
+| Human | Maar alle antwoorden die je geeft zijn toch gebaseerd op voorbeelden uit een dialoog dataset + labelling + ranking door mensen? | ChatGPT | De antwoorden die ik geef zijn gebaseerd op de informatie die ik geleerd heb uit deze dataset en de mannier waarop ik deze informatie interpreteer. <br>  <br> In sommige gevallen kan ik specifieke informatie uit de dataset gebruiken om te antwoorden op een vraag, in andere gevallen kan ik een combinatie van informatie gebruiken die ik geleerd heb om antwoord te geven. <br>  <br> Ook is het zo dat mijn antwoorden door mensen worden geëvalueerd en gerankt, en zo kan ik bijgestuurd worden of bijgeleerd. |
 | Human | Wanneer je antwoorden gebaseerd zijn op een combinatie van informatie. <br>  <br> Waar bestaat die combinatie aan informatie (bronnen) dan uit? | ChatGPT |Als generatieve taalmodel, leer ik patronen en structuren in taal uit de dataset waarop ik getraind ben, zoals boeken, artikelen, websites enz. <br>  <br>Dit betekent dat de antwoorden die ik geef gebaseerd zijn op de informatie die ik geleerd heb uit deze dataset. <br>  <br>In sommige gevallen kan ik specifieke informatie uit de dataset gebruiken om te antwoorden op een vraag, in andere gevallen kan ik een combinatie van informatie gebruiken die ik geleerd heb om antwoord te geven. <br>  <br>Deze combinatie kan bestaan uit een aantal verschillende bronnen, zoals boeken, artikelen, websites of andere bronnen die in de dataset zijn opgenomen. |
 | Human | Wanneer de uitkomst een combinatie is van reeds bestaande bronnen dan heb jezelf toch niets nieuws gegenereerd? | ChatGPT |Het is waar dat ik niet in staat ben om echt nieuwe informatie te genereren die niet in de dataset aanwezig was.<br>  <br> Wat ik wel kan doen is informatie combineren en gebruiken die ik geleerd heb uit de dataset om antwoord te geven op een vraag of een opdracht uit te voeren. <br>  <br>Dit kan lijken op het genereren van nieuwe informatie, maar in feite is het een combinatie van de informatie die al aanwezig was in de dataset. |
 
