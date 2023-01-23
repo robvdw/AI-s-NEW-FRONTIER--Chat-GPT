@@ -96,7 +96,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 *******
 
 
-"Kunstmatige intelligentie" (AI) is een multidisciplinair vakgebied gericht op het ontwikkelen van technologie dat menselijke cognitieve, perceptuele en/of motorische vermogens kan automatiseren.
+["Kunstmatige intelligentie" (AI)](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647) is een multidisciplinair vakgebied gericht op het ontwikkelen van technologie dat menselijke cognitieve, perceptuele en/of motorische vermogens kan automatiseren. 
 
 |               | Cognitie                                                                                                                                 | Perceptie                                                                                                                                 | Motorische vermogens                                                                                                                                 |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -104,7 +104,9 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 | Voorbeelden    | Taalverwerking, logisch redeneren, problemen oplossen.                                                                                    | Beeldherkenning, spraakherkenning, objecten lokaliseren.                                                                                        | Besturen van robots, drones vliegen, autonoom rijden.                                                                                                |
 
 
-Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen en/of muziek. 
+Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen, geluid, spraak en/of muziek. 
+ 
+ 
 
 <br>
 
