@@ -62,7 +62,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 <td align="left">
 <br>
 
-* [0] [Wat is generateve AI?](#v0)
+* [0] [Wat is generatieve kunstmatige intelligentie [Gen-AI]?](#v0)
 * [1a] [Wat moet je weten over ChatGPT ](#v1a)
 * [1b] [Wat zijn de beperkingen van ChatGPT?](#v1b)
 * [2] [Hoe geef je een opdracht aan ChatGPT?](#v2)
