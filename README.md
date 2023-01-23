@@ -92,7 +92,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 
 
 *******
-### [0] WAT IS *"GENERATIVE KUNSTMATIGE INTELLIGENTIE [Gen-AI]"*?
+### [0] Wat is "*generatieve kunstmatige intelligentie"* [Gen-AI]?
 *******
 
 
