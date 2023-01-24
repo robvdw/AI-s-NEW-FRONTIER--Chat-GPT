@@ -194,10 +194,11 @@ Een probleem is dat "belonend leren onder toezicht" [RLHF] nadelige effecten hee
 
 ChatGPT is extreem gevoelig voor de wijze waarop een vraag geformuleerd wordt. Dit kan leiden tot het negeren van bepaalde aanwijzingen in de opdracht. Bij één formulering van een vraag kan het beweren niet over de gevraagde informatie te beschikken, maar bij een kleine herformulering correct antwoorden.
 
-Nog problematiser is dat ChatGTP vaak in vreemde gedachten vervalt. Het hallucineert dan schijnbaar overtuigende maar onzinnige antwoorden die weinig met de werkelijkheid te maken hebben. Gebleken is dat de AI zeer zelfverzekerd onjuiste antwoorden geeft over elementaire wiskunde, natuurkunde en metingen; in een viraal voorbeeld bleef de chatbot zichzelf tegenspreken over de vraag of een vis een zoogdier was.
+Nog problematiser is dat ChatGTP vaak in vreemde gedachten vervalt. Het hallucineert dan schijnbaar overtuigende maar onzinnige antwoorden die weinig met de werkelijkheid te maken hebben. Gebleken is dat de AI zeer zelfverzekerd onjuiste antwoorden geeft over elementaire wiskunde, natuurkunde en basale kennis van de biologie; in een viraal voorbeeld bleef de ChatGPT zichzelf tegenspreken over de vraag of een vis een zoogdier was.
 
-Je kunt je dus afvragen hoe verantwoordelijk het is van OpenAI/Microsoft om een dergelijke AI in de wereld te zetten.
+Je kunt je dus afvragen hoe verantwoordelijk het is van OpenAI/Microsoft om een dergelijke AI in de wereld te zetten. Het is dus van belang om te weten wat de oorzaken zijn van deze problemen en hoe je met de beperkingen moet omgaan om ChatGPT verantwoord te kunnen gebruiken. In de onderstaande tabel zijn de meest vookomende problemen en mogelijke oplossingen opgesomd.
 
+<br>
 
 
 | Bekende Problemen | Oorzaak  | Oplossing |
