@@ -108,6 +108,7 @@ Voorbeelden van menselijkevermogens in de vorm van AI toepassingen zijn interact
 
 
 Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen, geluid, spraak en/of muziek. 
+Gen-AI kan patronen opsporen in datasets en vervolgens soortgelijke inhoud reprodueren. 
  
 <br>
 
