@@ -104,11 +104,16 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 | Toepassing   | Taalverwerking, Logisch Redeneren, Problemen Oplossen.                                                                                    | Beeldherkenning, Spraakherkenning, Object Localisatie.                                                                                        | Zelfrijdende auto's, Drone, Humanoïde Robots                                                                            |
 
 
-Voorbeelden van menselijkevermogens in de vorm van AI toepassingen zijn interactief uit teproberen via de [AI Safari](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647).
+Voorbeelden van menselijkevermogens in de vorm van AI toepassingen zijn interactief uit teproberen via de [World-Wide-Web AI Safari](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647).
+<div align="left"> >Living Mona Lisa from Few-Shot Adversarial Learning of Realistic Neural Talking Head Models </div>
+<img align="right" width="600" height="300" src="https://user-images.githubusercontent.com/684692/214197393-353c6de7-0089-4fbe-8e59-7c1445a932a9.gif">
 
 
-Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen, geluid, spraak en/of muziek. 
-Gen-AI kan patronen opsporen in datasets en vervolgens soortgelijke inhoud reprodueren. 
+Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen, geluid, spraak en/of muziek.  <br> Gen-AI kan patronen opsporen in datasets en vervolgens soortgelijke inhoud reprodueren. 
+
+
+
+
  
 <br>
 
