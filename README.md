@@ -96,18 +96,19 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 *******
 
 
-["Kunstmatige intelligentie" (AI)](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647) is een multidisciplinair vakgebied gericht op het ontwikkelen van technologie dat menselijke cognitieve, perceptuele en/of motorische vermogens kan automatiseren. 
+"Kunstmatige intelligentie" (AI) is een multidisciplinair vakgebied gericht op het ontwikkelen van technologie dat menselijke cognitieve, perceptuele en/of motorische vermogens kan automatiseren. 
 
 |               | Cognitie                                                                                                                                 | Perceptie                                                                                                                                 | Motorische vermogens                                                                                                                                 |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| menselijk vermogen    | Verwerken, begrijpen en onthouden van informatie.                                                                                        | Verzamelen van informatie via sensoren en interpretatie hiervan.                                                                            | Uitvoeren van fysieke acties.                                                                                                                            |
-| Voorbeelden    | Taalverwerking, logisch redeneren, problemen oplossen.                                                                                    | Beeldherkenning, spraakherkenning, objecten lokaliseren.                                                                                        | Besturen van robots, drones vliegen, autonoom rijden.                                                                                                |
+| Menselijk Vermogen    | Verwerken, Begrijpen en Onthouden van informatie.                                                                                        | Verzamelen van informatie via sensoren en interpretatie hiervan.                                                                            | Uitvoeren van fysieke acties.                                                                                                                            |
+| Toepassing   | Taalverwerking, Logisch Redeneren, Problemen Oplossen.                                                                                    | Beeldherkenning, Spraakherkenning, Object Localisatie.                                                                                        | Zelfrijdende auto's, Drone, Humanoïde Robots                                                                            |
+
+
+Voorbeelden van menselijkevermogens in de vorm van AI toepassingen zijn interactief uit teproberen via de [AI Safari](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647).
 
 
 Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met als doel het volledig automatisch produceren van ogenschijnlijk *"nieuwe"* inhoud, zoals tekst, afbeeldingen, geluid, spraak en/of muziek. 
  
- 
-
 <br>
 
 
@@ -229,7 +230,7 @@ Je kunt je dus afvragen hoe verantwoordelijk het is van OpenAI/Microsoft om een 
 
 * <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv preprint. https://doi.org/10.48550/arXiv.2203.02155
 
-* <sub> Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal policy optimization algorithms. arXiv preprint. https://doi.org/10.48550/arXiv.1707.06347
+* <sub> Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal Policy Optimization (PPO)  algorithms. arXiv preprint. https://doi.org/10.48550/arXiv.1707.06347
 
 * <sub> Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 and Similar Large Language Models. In Minds and Machines (Vol. 32, pp. 341-364). https://doi.org/10.1007/s11023-022-09602-0
 
