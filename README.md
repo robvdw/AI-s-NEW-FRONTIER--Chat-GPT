@@ -105,7 +105,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 | Toepassing   | Taalverwerking, Logisch Redeneren, Problemen Oplossen.                                                                                    | Beeldherkenning, Spraakherkenning, Object Localisatie.                                                                                        | Zelfrijdende auto's, Drones, Humanoïde Robots                                                                            |
 
 
-Voorbeelden van menselijkevermogens in de vorm van AI toepassingen zijn interactief uit teproberen via de [World-Wide-Web AI Safari](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647).
+Voorbeelden van menselijkevermogens in de vorm van AI toepassingen zijn interactief uit te proberen via de [World-Wide-Web AI Safari](https://robfvdw.medium.com/the-world-wide-web-ai-safari-b2e4f7f90647).
 
 <br>
  
