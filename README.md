@@ -187,9 +187,7 @@ In de onderstaande tabel zijn tot nu toe bekende op natuurlijke taal verwerking 
 | <sub>Write a Python docstring</sub> | <sub>Een voorbeeld geven van hoe een docstring voor een Python-functie gemaakt kan worden</sub> | <sub>Makkelijker documentatie van code, efficiënter ontwikkelen in teams</sub> |
 | <sub>Analogy maker</sub> | <sub>Analogieën maken</sub> | <sub>Creatie van vergelijkingen voor verduidelijking en verrijking van tekst</sub> |
  
-
-
-Houd er wel rekening mee dat deze voorbeelden niet direct beschikbaar, dus de beschrijvingen en toepassingen zijn slechts speculatief en bedoeld om een idee te geven waarvoor ChatGPT zou kunnen worden gebruikt..
+Deze voorbeelden zijn slechts bedoeld om eindgebruikers een idee te geven waarvoor ChatGPT tot nu toe is gebruikt. Het is niet de bedoeling om een volledige lijst te zijn van alle mogelijke toepassingen.
 
 # v1b
 
