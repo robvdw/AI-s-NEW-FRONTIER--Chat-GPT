@@ -153,10 +153,10 @@ In de onderstaande tabel zijn tot nu toe bekende op natuurlijke taal verwerking 
 | <sub>Parsing</sub> | <sub>Analyseren van de grammaticale structuur van een zin</sub> | <sub>Automatische analyse van grammatica, semantiek |
 | <sub>Coreference Resolution | <sub>Identificeren van verwijzingen naar dezelfde entiteit in een tekst | <sub> Automatische analyse van semantiek, anaphora resolution. |
 | <sub>Grammar Correction | <sub>Corrigeren van zinnen naar standaard Engelse grammatica | <sub>Automatische grammaticacontrole in tekstverwerkers, online fora, e-mails |
-| <sub> Summarize for a 2nd grader | <sub>Vertalen van moeilijke tekst naar eenvoudigere begrippen | Samenvatten van informatie voor kinderen, leesbaar maken van complexe tekst |
+| <sub> Summarize for a 2nd grader | <sub>Vertalen van moeilijke tekst naar eenvoudigere begrippen | <sub>Samenvatten van informatie voor kinderen, leesbaar maken van complexe tekst |
 | <sub>Natural language to OpenAI API | <sub>Creëren van code om aan te roepen naar de OpenAI API met behulp van natuurlijke taal | <sub>Interactie met AI-modellen via natuurlijke taal |
 | <sub>Text to command | <sub>Vertalen van tekst naar programmatische commando's | <sub>Interactie met computers via natuurlijke taal |
-| <sub>English to other languages | <sub>Vertalen van Engelse tekst naar Frans, Spaans en Japans | Automatische vertaling van Engelse tekst naar andere talen |
+| <sub>English to other languages | <sub>Vertalen van Engelse tekst naar Frans, Spaans en Japans | <sub>Automatische vertaling van Engelse tekst naar andere talen |
 | <sub>Natural language to Stripe API | <sub>Creëren van code om aan te roepen naar de Stripe API met behulp van natuurlijke taal | <sub>Interactie met Stripe-API via natuurlijke taal |
 | <sub>SQL translate | <sub>Vertalen van natuurlijke taal naar SQL-queries | <sub>Interactie met databases via natuurlijke taal |
 | <sub>Parse unstructured data</sub> | <sub>Creëren van tabellen uit langdurige tekst</sub> | <sub>Automatisch organiseren van gegevens, structuur aanbrengen in ongestructureerde data</sub> |
