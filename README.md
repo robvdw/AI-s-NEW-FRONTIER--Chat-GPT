@@ -186,8 +186,7 @@ In de onderstaande tabel zijn tot nu toe bekende op natuurlijke taal verwerking 
 | <sub>Mood to color</sub> | <sub>Een tekstomschrijving omzetten naar een kleur</sub> | <sub>Automatisch genereren van kleuren op basis van emoties, efficiënter ontwerpen van visuals</sub> |
 | <sub>Write a Python docstring</sub> | <sub>Een voorbeeld geven van hoe een docstring voor een Python-functie gemaakt kan worden</sub> | <sub>Makkelijker documentatie van code, efficiënter ontwikkelen in teams</sub> |
 | <sub>Analogy maker</sub> | <sub>Analogieën maken</sub> | <sub>Creatie van vergelijkingen voor verduidelijking en verrijking van tekst</sub> |
- 
-Deze voorbeelden zijn slechts bedoeld om eindgebruikers een idee te geven waarvoor ChatGPT tot nu toe is gebruikt. Het is niet de bedoeling om een volledige lijst te zijn van alle mogelijke toepassingen.
+
 
 # v1b
 
