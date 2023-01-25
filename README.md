@@ -79,6 +79,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 * [13] [Kun je spreken tegen ChatGPT?](#v13)
 * [14] [Bekende problemen & betrouwbaarheid issues](#v14)
 * [15] [Prompt voorbeelden](#v15)
+* [16] [Geraadpleegde Bronnen](#v16)
 
 </td>
 </tbody>
@@ -122,7 +123,7 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 
 
 *******
-### [1a] WAT MOET JE WETEN OVER ChatGPT?
+### [1a] Wat moet je weten over ChatGPT?
 *******
 
 <!--
@@ -132,7 +133,73 @@ LLMs van het van het type
 
  *"Generative Pre-trained Transformers"* [GPTs] zijn anno 2023 de meest dominate verschijnings vorm van Gen-AI. GTPs maken gebruik van op neurale netwerk [NN] architectuur gebaseerde  "machinaal Lerende" [ML] algoritmen. Het zijn automaten die natuurlijke taal kunnen verwerken & genereren [NLP]. 
 
-ChatGPT is de meest geavanceerde GPT die publiekelijk toegankelijk is gesteld door OpenAI.com eind 2022. Deze nieuwe generatie GPT kan op commando natuurlijke taal genereren nodig voor (1) het inhoudelijk beantwoorden van vragen, (2) het samenvatten van teksten, (3) uitvoeren van gedetaileerde instructies, en (4) het voeren van dialogen.
+ChatGPT is de meest geavanceerde GPT die publiekelijk toegankelijk is gesteld door OpenAI.com eind 2022. 
+
+Deze nieuwe generatie GPT kan op commando natuurlijke taal genereren nodig voor (1) het inhoudelijk beantwoorden van vragen, (2) het samenvatten van teksten, (3) uitvoeren van gedetaileerde instructies, en (4) het voeren van dialogen. 
+
+In de onderstaande tabel zijn tot nu toe bekende op natuurlijke taal verwerking [NLP] gebaseerde functies  van ChatGPT weergegeven.
+
+| <sub>NLP functie</sub> | <sub>Omschrijving</sub> | <sub>Toepassingen</sub> |
+| --- | --- | --- |
+| <sub>Text completion</sub> | <sub>Voorspellen van de volgende woorden in een zin of tekst</sub> | <sub>Automatische aanvulling van tekst in tekstverwerkers, zoekopdrachten</sub> |
+| <sub>Language Translation</sub> | <sub>Vertalen van tekst van een taal naar een andere</sub> | <sub>Automatische vertaling van berichten, documenten, websites</sub> |
+| <sub>Summarization</sub> | <sub>Samenvatten van een lange tekst in een kortere vorm</sub> | <sub>Samenvatten van nieuwsartikelen, boeken, rapporten</sub> |
+| <sub>Question Answering</sub> | <sub>Beantwoorden van vragen op basis van een gegeven tekst</sub> | <sub>Beantwoording van vragen in chatbots, zoekmachines, virtuele assistenten</sub> |
+| <sub>Image captioning</sub> | <sub>Bedenken van een bijschrift voor een gegeven afbeelding</sub> | <sub>Automatisch beschrijven van afbeeldingen voor toegankelijkheid, zoekopdrachten</sub> |
+| <sub>Sentiment Analysis</sub> | <sub>Classificeren van tekst als positief, negatief of neutraal</sub> | <sub>Analyseren van social media-berichten, klantbeoordelingen, feedback</sub> |
+| <sub>Text Generation</sub> | <sub>Genereren van tekst op basis van een bepaald onderwerp of stijl</sub> | <sub>Schrijven van kunstmatige teksten, scripts, artikelen</sub> |
+| <sub>Named Entities Recognition</sub> | <sub>Herkennen van namen van personen, organisaties, locaties, enz. in tekst</sub> | <sub>Extraheren van gegevens uit documenten, automatisch genereren van metadata</sub> |
+| <sub>Parts of Speech Tagging</sub> | <sub>Toewijzen van grammaticale categorieën aan woorden in een zin</sub> | <sub>Automatische analyse van grammatica, semantiek</sub> |
+| <sub>Parsing</sub> | <sub>Analyseren van de grammaticale structuur van een zin</sub> | <sub>Automatische analyse van grammatica, semantiek |
+| <sub>Coreference Resolution | <sub>Identificeren van verwijzingen naar dezelfde entiteit in een tekst | <sub> Automatische analyse van semantiek, anaphora resolution. |
+| <sub>Grammar Correction | <sub>Corrigeren van zinnen naar standaard Engelse grammatica | <sub>Automatische grammaticacontrole in tekstverwerkers, online fora, e-mails |
+| <sub> Summarize for a 2nd grader | <sub>Vertalen van moeilijke tekst naar eenvoudigere begrippen | Samenvatten van informatie voor kinderen, leesbaar maken van complexe tekst |
+| <sub>Natural language to OpenAI API | <sub>Creëren van code om aan te roepen naar de OpenAI API met behulp van natuurlijke taal | <sub>Interactie met AI-modellen via natuurlijke taal |
+| <sub>Text to command | <sub>Vertalen van tekst naar programmatische commando's | <sub>Interactie met computers via natuurlijke taal |
+| <sub>English to other languages | <sub>Vertalen van Engelse tekst naar Frans, Spaans en Japans | Automatische vertaling van Engelse tekst naar andere talen |
+| <sub>Natural language to Stripe API | <sub>Creëren van code om aan te roepen naar de Stripe API met behulp van natuurlijke taal | <sub>Interactie met Stripe-API via natuurlijke taal |
+| <sub>SQL translate | <sub>Vertalen van natuurlijke taal naar SQL-queries | <sub>Interactie met databases via natuurlijke taal |
+| <sub>Parse unstructured data</sub> | <sub>Creëren van tabellen uit langdurige tekst</sub> | <sub>Automatisch organiseren van gegevens, structuur aanbrengen in ongestructureerde data</sub> |
+| <sub>Classification</sub> | <sub>Classificeren van items in categorieën op basis van voorbeeld</sub> | <sub>Automatisch sorteren van gegevens, detectie van spam, frauduleuze activiteiten</sub> |
+| <sub>Python to natural language</sub> | <sub>Uitleggen van een stuk Python-code in begrijpelijke menselijke taal</sub> | <sub>Automatische documentatie van code, verklaringen van code in begrijpelijke taal</sub> |
+| <sub>Movie to Emoji</sub> | <sub>Converteren van filmtitels naar emoji</sub> | <sub>Creatief gebruik van emoji's in social media, marketing</sub> |
+| <sub>Calculate Time Complexity</sub> | <sub>Vinden van de tijdscomplexiteit van een functie</sub> | <sub>Optimaliseren van code-prestaties, vergelijken van verschillende algoritmen</sub> |
+| <sub>Translate programming languages</sub> | <sub>Vertalen van een programmeren taal naar een andere</sub> | <sub>Automatisch genereren van code, converteren van code tussen talen</sub> |
+| <sub>Advanced tweet classifier</sub> | <sub>Geavanceerde sentimentdetectie voor een stuk tekst</sub> | <sub>Analyseren van social media-berichten, klantbeoordelingen, feedback</sub> |
+| <sub>Explain code</sub> | <sub>Uitleggen van een ingewikkeld stuk code</sub> | <sub>Automatische documentatie van code, verklaringen van code in begrijpelijke taal voor niet-ontwikkelaars, ondersteuning van code-reviews en debugging</sub> |
+| <sub>Keywords</sub> | <sub>Extraheren van sleutelwoorden uit een blok tekst</sub> | <sub>Automatisch classificeren van documenten, verbeteren van zoekresultaten, identificeren van onderwerpen en trends</sub> |
+| <sub>Factual answering</sub> | <sub>Leiden van het model naar feitelijke antwoorden door het te laten zien hoe het moet reageren op vragen die buiten zijn kennisbasis vallen. Met een '?' aangeven van een antwoord op woorden en zinnen die het niet kent, biedt een natuurlijke reactie die beter werkt dan abstractere antwoorden</sub> | <sub>Beantwoorden van vragen in chatbots, zoekmachines, virtuele assistenten</sub> |
+| <sub>Ad from product description</sub> | <sub>Een productomschrijving omzetten in advertentie-tekst</sub> | <sub>Automatisch genereren van advertentie-tekst, verbeteren van de effectiviteit van marketingcampagnes</sub> |
+| <sub>Product name generator</sub> | <sub>Productnamen genereren uit voorbeeldwoorden. Beïnvloed door een gemeenschapsprompt</sub> | <sub>Automatisch genereren van productnamen, verbeteren van de originaliteit van productnamen</sub> |
+| <sub>TL;DR summarization</sub> | <sub>Tekst samenvatten door 'tl;dr:' aan het eind van een tekstpassage te plaatsen. Het toont aan dat de API begrijpt hoe een aantal taken uit te voeren zonder instructies</sub> | <sub>Efficiënter lezen van grote hoeveelheden tekst, verbeteren van de begrijpelijkheid van tekst</sub> |
+| <sub>Python bug fixer</sub> | <sub>Bugs in broncode vinden en verhelpen</sub> | <sub>Automatisch debuggen van code, verminderen van tijd besteed aan het oplossen van problemen</sub> |
+| <sub>Spreadsheet creator</sub> | <sub>Spreadsheets maken van verschillende soorten gegevens. Het is een lange prompt, maar zeer veelzijdig. De output kan worden gekopieerd en geplakt in een tekstbestand en opgeslagen als .csv met pipe-scheidingstekens</sub> | <sub>Efficiënter verwerken van grote hoeveelheden gegevens, automatisch genereren van rapporten</sub> |
+| <sub>JavaScript helper chatbot</sub> | <sub>Berichtstijl-bot die vragen over JavaScript beantwoordt</sub> | <sub>Ondersteuning bij het leren en werken met JavaScript, snel antwoorden op technische vragen</sub> |
+| <sub>ML/AI language model tutor</sub> | <sub>Bot die vragen beantwoordt over taalmodellen in ML/AI</sub> | <sub>Ondersteuning bij het leren en begrijpen van taalmodellen, snel antwoorden op technische vragen</sub> |
+| <sub>Science fiction book list maker</sub> | <sub>Een lijst maken van items voor een bepaald onderwerp</sub> | <sub>Automatisch genereren van lijsten, efficiënter organiseren van informatie</sub> |
+| <sub>Tweet classifier</sub> | <sub>Basis sentimentdetectie voor een stuk tekst</sub> | <sub>Analyseren van social media-berichten, detectie van positief en negatief sentiment</sub> |
+| <sub>Airport code extractor</sub> | <sub>Luchthavencodes uit tekst extraheren</sub> | <sub>Automatisch herkennen van luchthavencodes in tekst, efficiënter organiseren van reisinformatie</sub> |
+| <sub>SQL request</sub> | <sub>Eenvoudige SQL-queries maken</sub> | <sub>Automatisch genereren van SQL-queries, efficiënter data-analyse</sub> |
+| <sub>Extract contact information</sub> | <sub>Contactinformatie uit een blok tekst extraheren</sub> | <sub>Automatisch herkennen van contactinformatie, efficiënter organiseren van contactgegevens</sub> |
+| <sub>JavaScript to Python</sub> | <sub>Eenvoudige JavaScript-expressies omzetten naar Python</sub> | <sub>Makkelijker migratie van code tussen verschillende talen, snellere ontwikkeling</sub> |
+| <sub>Friend chat</sub> | <sub>Een tekstberichtconversatie nabootsen</sub> | <sub>Oefenen van sociale vaardigheden, genereren van chatlogs voor analyse</sub> |
+| <sub>Mood to color</sub> | <sub>Een tekstomschrijving omzetten naar een kleur</sub> | <sub>Automatisch genereren van kleuren op basis van emoties, efficiënter ontwerpen van visuals</sub> |
+| <sub>Write a Python docstring</sub> | <sub>Een voorbeeld geven van hoe een docstring voor een Python-functie gemaakt kan worden</sub> | <sub>Makkelijker documentatie van code, efficiënter ontwikkelen in teams</sub> |
+| <sub>Analogy maker</sub> | <sub>Analogieën maken</sub> | <sub>Creatie van vergelijkingen voor verduidelijking en verrijking van tekst</sub> |
+ 
+
+
+Houd er wel rekening mee dat deze voorbeelden niet direct beschikbaar, dus de beschrijvingen en toepassingen zijn slechts speculatief en bedoeld om een idee te geven waarvoor ChatGPT zou kunnen worden gebruikt..
+
+# v1b
+
+
+*******
+### [1b]  WAT ZIJN DE BEPERKINGEN VAN ChatGPT?
+*******
+
+
+
 
 ChatGPT is geoptimaliseerd voor (1) het afleiden van de intentie van de eindgebruiker (2) het tegengaan van ongepast taalgebruik; (3) het reduceren van de kans op het genereren van "verzonnen" feiten; en (4) het genereren van adequate reacties op de input van de eindgebruiker.
 
@@ -181,17 +248,6 @@ Het resultaat is een Gen-AI dat in staat is om een gesprek aan te gaan die eindg
 
 Een probleem is dat "belonend leren onder toezicht" [RLHF] nadelige effecten heeft voor de benutting van het onderliggende taalmodel. Dit komt doordat de ideale reactie van ChatGPT niet bepaald wordt wat deze Gen-AI aan natuurlijke taal voorbeelden heeft opgeslagen, maar van wat de menselijke demonstrateur weet. Hierdoor is het mogelijk dat ChatGPT een antwoord geeft dat niet overeenkomt met wat het aan feitelijk juiste informatie heeft opgeslagen.
 
-
-
-
-# v1b
-
-
-*******
-### [1b]  WAT ZIJN DE BEPERKINGEN VAN ChatGPT?
-*******
-
-
 ChatGPT is extreem gevoelig voor de wijze waarop een vraag geformuleerd wordt. Dit kan leiden tot het negeren van bepaalde aanwijzingen in de opdracht. Bij één formulering van een vraag kan het beweren niet over de gevraagde informatie te beschikken, maar bij een kleine herformulering correct antwoorden.
 
 Nog problematiser is dat ChatGTP vaak in vreemde gedachten vervalt. Het hallucineert dan schijnbaar overtuigende maar onzinnige antwoorden die weinig met de werkelijkheid te maken hebben. Gebleken is dat de AI zeer zelfverzekerd onjuiste antwoorden geeft over elementaire wiskunde, natuurkunde en basale kennis van de biologie; in een viraal voorbeeld bleef de ChatGPT zichzelf tegenspreken over de vraag of een vis een zoogdier was.
@@ -209,49 +265,7 @@ Je kunt je afvragen hoe verantwoordelijk het is van OpenAI/Microsoft om een derg
 | <sub>Gebrek aan context | <sub>Omdat ChatGPT is getraind op bestaande tekst, kan het soms moeilijk zijn om de intentie van de vraagsteller te bepalen. <br><br> Dit gebeurt als een vraag niet specifiek genoeg is, dubbelzinnig en of tegenstrijdig is, of als de vraagsteller de context niet duidelijk aangeeft. <br><br>Gevolg is dat ChatGPT naar de intentie van de vraagsteller gaat *"raden"*. Met andere woorden, ChatGPT komt tot een antwoord door een reeks gissingen waardoor het foute antwoorden kan beargumenteren alsof ze volledig waar zijn. Het produceerd dan alleen nog onzinnige antwoorden alsof het aan het hallucineren is. | <sub> Wanneer ChatGPT een alleen nog onzinnig antwoorden geeft, log dan uit. Log vervolgens opnieuw in en herformuleren de vraag. <br><br>Gebruik de juiste woordkeuze en uitdrukkingen. <br><br>Gebruik de juiste context. <br><br> |
 | <sub>Ongwenste antwoorden | <sub>ChatGPT zal doorgaans ongepaste verzoeken  weigeren. Dit komt doordat de Moderation API zal ongepaste verzoeken negeren of waarschuwen: <br> <sub> *"This content may violate our content policy. If you believe this to be in error, please submit your feedback — your input will aid our research in this area."*| <sub> Dit is een vorm van zelfcensuur die lastig te omzeilen is. Het opleggen van een rollenspel heeft kan deze vorm van  filtering  neutraliseren, maar de vraag is of je dat zou moeten willen? <br><br> Wanneer je ervan overtuigd bent dat de waarschuwing onterecht is, geef dan feedback via de API.|
 
-
-<br><br>
-
-<div align="left">
-<table>
-<tbody>
-<td align="left">
-
-### Geraadpleegde bronnen: 
-
-* <sub> van Breda, N. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> https://communities.surf.nl/ai-in-education/artikel/ChatGPT-wat-ga-je-voor-ons-doen-in-het-onderwijs
-
-* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
-
-* <sub> Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., & Prather, J. (2022). The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming. In ACE '22: Australasian Computing Education Conference (pp. 10-19). https://doi.org/10.1145/3511861.3511863
-
-* <sub> Forsyth, O. (2022, december 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
-
-* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
-
-* <sub> Ngo, R. (2022). The alignment problem from a deep learning perspective. arXiv preprint. https://doi.org/10.48550/arXiv.2209.00626
-
-* <sub> Openai.com (2022, januari 27). Instruction Following [Blog]. https://openai.com/blog/instruction-following/
-
-* <sub> Openai.com (2022, januari 27). Following-instructions-human-feedback [Code repository]. https://github.com/openai/following-instructions-human-feedback.
-
-* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv preprint. https://doi.org/10.48550/arXiv.2203.02155
-
-* <sub> Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal Policy Optimization (PPO)  algorithms. arXiv preprint. https://doi.org/10.48550/arXiv.1707.06347
-
-* <sub> Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 and Similar Large Language Models. In Minds and Machines (Vol. 32, pp. 341-364). https://doi.org/10.1007/s11023-022-09602-0
-
-* <sub> Thompson, A. D. (March 2022). What's in my AI? A Comprehensive Analysis of Datasets Used to Train GPT-1, GPT-2, GPT-3, GPT-NeoX-20B, Megatron-11B, MT-NLG, and Gopher. https://lifearchitect.ai/whats-in-my-ai-paper/
-
-* <sub> Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. In 31st Conference on Advances in Neural Information Processing Systems (NIPS). https://doi.org/10.48550/arXiv.1706.03762 
-</td>
-</tbody>
-</table>
-</div>
-
-
 <br>
-
 
 # v2
 ********
@@ -680,6 +694,50 @@ De onderstaande voorbeelden zijn ontleend aan https://github.com/f/awesome-ChatG
 
 
 
+<br /> 
+
+# v16
+********
+### [16] GeraadPleegde Bronnen
+********
+
+<div align="left">
+<table>
+<tbody>
+<td align="left">
 
 
+
+* <sub> van Breda, N. (2022, december 23). ChatGPT: Wat ga je voor ons doen in het onderwijs? [Blog]. <br> https://communities.surf.nl/ai-in-education/artikel/ChatGPT-wat-ga-je-voor-ons-doen-in-het-onderwijs
+
+* <sub> Chan, A. GPT-3 and InstructGPT: technological dystopianism, utopianism, and “Contextual” perspectives in AI ethics and industry. AI Ethics (2022). https://doi.org/10.1007/s43681-022-00148-6
+
+* <sub> Finnie-Ansley, J., Denny, P., Becker, B. A., Luxton-Reilly, A., & Prather, J. (2022). The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming. In ACE '22: Australasian Computing Education Conference (pp. 10-19). https://doi.org/10.1145/3511861.3511863
+
+* <sub> Forsyth, O. (2022, december 20). Generative AI. [Blog]. https://www.antler.co/blog/generative-ai
+
+* <sub> Hiltzik, M. (2023, januari 20). Robot taxis, hyperloops: A top technologist wages war on tech's hype machine. [Column]. The Los Angeles Times. https://www.latimes.com/business/story/2023-01-20/robot-taxis-hyperloops-a-top-technologist-wages-war-on-techs-hype-machine
+
+* <sub> Ngo, R. (2022). The alignment problem from a deep learning perspective. arXiv preprint. https://doi.org/10.48550/arXiv.2209.00626
+
+* <sub> Openai.com (2022, januari 27). Instruction Following [Blog]. https://openai.com/blog/instruction-following/
+
+* <sub> Openai.com (2022, januari 27). Following-instructions-human-feedback [Code repository]. https://github.com/openai/following-instructions-human-feedback.
+
+* <sub> Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C. L., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., & Ray, A. (2022). <br> Training language models to follow instructions with human feedback. arXiv preprint. https://doi.org/10.48550/arXiv.2203.02155
+
+* <sub> Schulman, J., Wolski, F., Dhariwal, P., Radford, A., & Klimov, O. (2017). Proximal Policy Optimization (PPO)  algorithms. arXiv preprint. https://doi.org/10.48550/arXiv.1707.06347
+
+* <sub> Sobieszek, A., & Price, T. (2022). Playing Games with Ais: The Limits of GPT-3 and Similar Large Language Models. In Minds and Machines (Vol. 32, pp. 341-364). https://doi.org/10.1007/s11023-022-09602-0
+
+* <sub> Thompson, A. D. (March 2022). What's in my AI? A Comprehensive Analysis of Datasets Used to Train GPT-1, GPT-2, GPT-3, GPT-NeoX-20B, Megatron-11B, MT-NLG, and Gopher. https://lifearchitect.ai/whats-in-my-ai-paper/
+
+* <sub> Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. In 31st Conference on Advances in Neural Information Processing Systems (NIPS). https://doi.org/10.48550/arXiv.1706.03762 
+</td>
+</tbody>
+</table>
+</div>
+
+
+<br>
 
