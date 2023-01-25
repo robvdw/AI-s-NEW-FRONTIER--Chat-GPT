@@ -122,7 +122,7 @@ Generatieve AI [Gen-AI] is een *"digitale content generende technologie"*  met a
 
 
 *******
-### [1a] WAT MOET IK WETEN OVER ChatGPT?
+### [1a] WAT MOET JE WETEN OVER ChatGPT?
 *******
 
 <!--
