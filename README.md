@@ -71,7 +71,7 @@ id1[Deze GitHub repository is een primer met bijsluiter dat op basis van <i>PROM
 * [5] [Heeft ChatGPT taalbegrip?](#v5)
 * [6] [Kan ChatGPT logisch redeneren?](#v6)
 * [7a] [Kan  ChatGPT broncode schrijven?](#v7a)
-* [7b] [Kan ChatGPT  broncode uit te leggen?](#v7b)
+* [7b] [Kan ChatGPT  broncode uitleggen?](#v7b)
 * [7c] [Kan ChatGPT een "Deep Learning" lessenreeks bedenken?](#v7c)
 * [8] [Kan ChatGPT gebruikt worden om bronnen te vermelden?](#v8)
 * [9] [Kan ChatGPT gebruikt worden om bronnen samen te vatten?](#v9)
